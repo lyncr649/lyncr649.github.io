@@ -12,3 +12,10 @@ a{
     text-align: center;
     size: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 65px;
+        padding: auto;
+    }
+}
