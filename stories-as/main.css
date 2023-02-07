@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(231, 180, 86);
+    color: rgb(228, 228, 228);
+}
+
+h1{
+    font-size: 200px;
+}
+
+h2{
+    font-size: 25px;
+    padding-left: 45px;
+}
+
+p{
+    font-size: 15px;
+    padding: 45px;
+
+}
