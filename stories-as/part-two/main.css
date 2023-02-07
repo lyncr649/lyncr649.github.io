@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(126, 165, 215);
+}
+
+p{
+    padding: 200px;
+    color: aliceblue;
+    font-size: 75px;
+}
