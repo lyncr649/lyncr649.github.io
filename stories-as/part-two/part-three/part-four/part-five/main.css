@@ -3,7 +3,8 @@
 body{
     background-color: #636B30;
     font-family: 'Libre Baskerville', serif;
-    padding: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 p{
