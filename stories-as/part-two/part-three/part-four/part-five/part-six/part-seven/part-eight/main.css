@@ -9,3 +9,11 @@ body{
 p{
     font-size: 40px;
 }
+
+a, a:visited{
+    color: #1E2318;
+}
+
+a:hover{
+    color: #624C7D;
+}
