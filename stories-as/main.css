@@ -2,21 +2,24 @@
 
 body{
     background-color: #E5BF5A;
-    color: rgb(228, 228, 228);
+    color: rgb(17, 21, 58);
     font-family: 'Libre Baskerville', serif;;
+    padding: 5%;
 }
 
 h1{
     font-size: 200px;
+    line-height: 175px;
 }
 
 h2{
     font-size: 25px;
     padding-left: 45px;
+    line-height: 15px;
 }
 
 p{
-    font-size: 15px;
+    font-size: 35px;
     padding: 45px;
 
 }
