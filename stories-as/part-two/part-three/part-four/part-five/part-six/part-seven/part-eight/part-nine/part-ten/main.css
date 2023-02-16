@@ -2,3 +2,7 @@ body{
     background-color: #050511;
     color: aliceblue;
 }
+
+p{
+    font-size: 30px;
+}
