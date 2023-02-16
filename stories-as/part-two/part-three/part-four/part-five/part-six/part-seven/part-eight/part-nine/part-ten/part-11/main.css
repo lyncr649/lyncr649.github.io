@@ -7,4 +7,16 @@ body{
 
 p{
     color: rgb(63, 63, 8);
+    font-size: 45px;
+    padding-left: 40%;
+    padding-right: 15px;
+}
+
+a, a:visited{
+    color: rgb(105, 116, 129);
+    font-size: 20px;
+}
+
+a:hover{
+    color: olive;
 }
