@@ -11,3 +11,11 @@ p{
     padding-left: 5%;
     padding-right: 5%;
 }
+
+a, a:visited{
+    color: #1D0E0A;
+}
+
+a:hover{
+    color: #9EA3A7;
+}

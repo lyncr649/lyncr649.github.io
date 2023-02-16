@@ -10,3 +10,10 @@ p{
     align-content: right;
 }
 
+a, a:visited{
+    color: #646B38;
+}
+
+a:hover{
+    color: black;
+}

@@ -12,3 +12,11 @@ p{
     font-family: 'Libre Baskerville', serif;
 }
 
+a, a:visited{
+    color: #CAD7E0;
+}
+
+a:hover{
+    color: black;
+}
+

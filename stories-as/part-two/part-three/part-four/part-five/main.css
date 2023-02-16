@@ -10,3 +10,11 @@ body{
 p{
     font-size: 30px;
 }
+
+a, a:visited{
+    color: black; 
+}
+
+a:hover{
+    color: #F8DB65;
+}

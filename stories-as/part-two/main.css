@@ -12,3 +12,11 @@ p{
     color: aliceblue;
     font-size: 70px;
 }
+
+a, a:visited{
+    color: #7B2422;
+}
+
+a:hover{
+    color: #F6EEB9;
+}
