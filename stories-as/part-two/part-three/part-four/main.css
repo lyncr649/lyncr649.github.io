@@ -2,11 +2,12 @@
 
 body{
     background-color: #C7D8E1;
-    font-family: 'Libre Baskerville', serif;;
+    font-family: 'Libre Baskerville', serif;
     padding: 10%;
 }
 
 p{
     font-size: 30px;
+    align-content: right;
 }
 
