@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin:wght@100;300;400;700&display=swap');
+
 body{
     background-color: #D0D2DC;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p{
+    color: rgb(63, 63, 8);
+    padding: 10%;
 }
