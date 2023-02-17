@@ -48,7 +48,7 @@ em:hover{
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 	h1{
 		font-size: 25px;
 	}
