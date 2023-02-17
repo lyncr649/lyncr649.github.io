@@ -12,8 +12,13 @@ p{
 
 a, a:visited{
     color: #646B38;
+    text-decoration: none;
 }
 
 a:hover{
     color: black;
+}
+
+em:hover{
+    color: #646B38;
 }
