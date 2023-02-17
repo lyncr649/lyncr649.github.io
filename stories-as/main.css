@@ -52,10 +52,10 @@ em:hover{
 	h1{
 		font-size: 25px;
 	}
-	h2, p{
+	h2{
 		font-size: 15px;
 	}
-	pre{
-		font-size: 10px;
+	p{
+		font-size: 12px;
 	}
 }
