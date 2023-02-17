@@ -6,8 +6,8 @@ body{
 }
 
 p{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 5%;
+    padding-right: 25%;
     padding-bottom: 400px;
     color: aliceblue;
     font-size: 70px;
@@ -19,4 +19,14 @@ a, a:visited{
 
 a:hover{
     color: #F6EEB9;
+}
+
+em:hover{
+    color: #F6EEB9;
+}
+
+@media only screen and (max-width: 400px) {
+	p{
+		font-size: 15px;
+	}
 }
