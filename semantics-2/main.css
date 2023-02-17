@@ -38,6 +38,7 @@ h3{
 
 .favorite{
     color: rgb(139, 142, 163);
+    line-height: 30px;
 }
 
 li::marker {
