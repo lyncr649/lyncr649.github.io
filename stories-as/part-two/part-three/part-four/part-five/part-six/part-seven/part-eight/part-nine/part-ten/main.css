@@ -20,3 +20,15 @@ a, a:visited{
 a:hover{
     color: #3E3F13;
 }
+
+em:hover{
+    color: #3E3F13;
+}
+
+@media only screen and (max-width: 375px) {
+	p{
+		font-size: 15px;
+        padding: auto;
+        text-align: left;
+	}
+}
