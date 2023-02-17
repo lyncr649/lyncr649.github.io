@@ -13,8 +13,20 @@ p{
 
 a, a:visited{
     color: #050510;
+    text-decoration: none;
 }
 
 a:hover{
     color: #F0F8FE;
+}
+
+em:hover{
+    color: #F0F8FE;
+}
+
+@media only screen and (max-width: 375px) {
+	p{
+		font-size: 25px;
+        padding: auto;
+	}
 }
