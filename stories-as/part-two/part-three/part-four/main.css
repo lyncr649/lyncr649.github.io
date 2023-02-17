@@ -7,7 +7,9 @@ body{
 
 p{
     font-size: 30px;
-    align-content: right;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 50%;
 }
 
 a, a:visited{
@@ -23,14 +25,7 @@ em:hover{
     color: #646B38;
 }
 
-.row {
-    display: flex;
- }
-
-.column {
-    flex: 50%;
-}
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
 	p{
 		font-size: 15px;
         padding: auto;
