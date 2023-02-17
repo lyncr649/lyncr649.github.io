@@ -1,42 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100;1,400&family=Sofia+Sans+Extra+Condensed:wght@300&display=swap');
 
-body{
+body {
     background-color: rgb(26, 26, 26);
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
     padding: 5%;
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
     text-align: center;
 }
 
-#title{
+#title {
     font-size: 60px;
 }
 
 
-h2,h3{
+h2,
+h3 {
     color: lightgray;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
 }
 
-h2{
-    font-size: 25px;
+h2 {
+    font-size: 30px;
     line-height: 25px;
 }
 
-h3{
-    font-size: 15px;
-    line-height: 23px;
+h3 {
+    font-size: 25px;
+    line-height: 32px;
 }
 
-.genre{
+.genre {
     color: rgb(136, 132, 132);
     font-size: 14px;
     cursor: pointer;
 }
 
-.favorite{
+.favorite {
     color: rgb(139, 142, 163);
     line-height: 30px;
 }
@@ -45,25 +49,25 @@ li::marker {
     content: '- ';
 }
 
-a{
+a {
     color: rgb(246, 246, 172);
     text-decoration: underline;
 }
 
 
-a:visited{
+a:visited {
     color: olive;
 }
 
-a:hover{
+a:hover {
     color: red;
 }
 
-details[open] { 
-    color: rgb(0, 0, 255); 
+details[open] {
+    color: rgb(0, 0, 255);
 }
 
-.summary{
+.summary {
     font-size: 50px;
     line-height: 35px;
     cursor: pointer;
