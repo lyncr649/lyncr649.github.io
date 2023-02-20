@@ -4,23 +4,27 @@ body{
     background-color: #200D09;
     color: rgb(157, 163, 168);
     font-family: 'Libre Baskerville', serif;
+    padding: 10%;
 }
 
 p{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 a, a:visited{
-    color: #1E2318;
+    color: #624C7D;
     text-decoration: none;
 }
 
 a:hover{
-    color: #624C7D;
+    color: #1E2318;
 }
 
-em:hover{
+em{
     color: #624C7D;
+}
+em:hover{
+    font-size: 60px;
 }
 
 div.fixed {
@@ -29,6 +33,7 @@ div.fixed {
     color: rgb(157, 163, 168);
     background-color: #200D09;
     width: 2000px;
+    left: 0;
 }
 
 @media only screen and (max-width: 375px) {

@@ -7,7 +7,7 @@ body{
 
 p{
     color: rgb(63, 63, 8);
-    font-size: 45px;
+    font-size: 50px;
     padding-left: 40%;
     padding-right: 8%;
 }
@@ -15,6 +15,7 @@ p{
 a, a:visited{
     color: rgb(105, 116, 129);
     font-size: 20px;
+    text-decoration: none;
 }
 
 a:hover{
