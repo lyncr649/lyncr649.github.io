@@ -8,8 +8,8 @@ body{
 
 p{
     font-size: 45px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 a, a:visited{
@@ -23,6 +23,14 @@ a:hover{
 em:hover{
     color: #9EA3A7;
 }
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    color: darkblue;
+    left: 0;
+  }
+
 
 @media only screen and (max-width: 375px) {
 	p{

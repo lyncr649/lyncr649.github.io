@@ -25,6 +25,14 @@ em:hover{
     color: #646B38;
 }
 
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    color: black;
+    background-color: #C7D8E1;
+  }
+
+
 @media only screen and (max-width: 600px) {
 	p{
 		font-size: 15px;

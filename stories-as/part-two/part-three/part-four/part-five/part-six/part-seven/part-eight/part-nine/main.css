@@ -2,13 +2,13 @@
 
 body{
     background-color: #1E2318;
-    font-size: 100px;
     font-family: 'Libre Baskerville', serif;
 }
 p{
     padding-left: 5%;
     padding-right: 5%;
     color: rgb(102, 75, 128);
+    font-size: 100px;
 }
 
 a, a:visited{
@@ -22,6 +22,12 @@ a:hover{
 
 em:hover{
     color: #F0F8FE;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    color: rgb(102, 75, 128);
 }
 
 @media only screen and (max-width: 375px) {
