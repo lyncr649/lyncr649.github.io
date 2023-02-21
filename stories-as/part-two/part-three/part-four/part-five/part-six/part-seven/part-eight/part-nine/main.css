@@ -34,7 +34,7 @@ div.fixed {
     color: rgb(102, 75, 128);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
 	p{
 		font-size: 25px;
         padding: auto;
