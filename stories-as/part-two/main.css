@@ -10,19 +10,24 @@ p{
     padding-right: 25%;
     padding-bottom: 400px;
     color: aliceblue;
-    font-size: 70px;
+    font-size: 80px;
 }
 
 a, a:visited{
     color: #7B2422;
+    text-decoration: none;
 }
 
 a:hover{
     color: #F6EEB9;
 }
 
+em{
+    color: #F6EEB9;
+}
 em:hover{
     color: #F6EEB9;
+    font-size: 90px;
 }
 
 div.fixed {

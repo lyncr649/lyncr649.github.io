@@ -66,6 +66,7 @@ body {
 
   a, a:visited{
     color: #F2EB75;
+    text-decoration: none;
   }
 
   a:hover{

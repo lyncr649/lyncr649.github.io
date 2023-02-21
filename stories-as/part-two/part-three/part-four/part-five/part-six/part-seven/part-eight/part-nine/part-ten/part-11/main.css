@@ -22,8 +22,13 @@ a:hover{
     color: olive;
 }
 
+em{
+    color: olive;
+}
+
 em:hover{
     color: olive;
+    font-size: 60px;
 }
 
 div.fixed {

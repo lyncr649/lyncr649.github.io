@@ -24,7 +24,7 @@ h1, h2{
 }
 
 p{
-    font-size: 35px;
+    font-size: 40px;
     padding: 45px;
     padding-left: 20%;
     padding-right: 20%;
@@ -32,19 +32,25 @@ p{
 
 a {
     color: #010211;
+    text-decoration: none;
   }
 
 a:visited {
     color: #010211;
+    text-decoration: none;
   }
 
 a:hover{
     color: #F1F8FE;
 }
 
+em{
+    color: #F1F8FE;
+}
+
 em:hover{
     color: #F1F8FE;
-    ;
+    font-size: 50px;
 }
 
 div.fixed {

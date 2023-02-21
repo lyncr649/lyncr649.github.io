@@ -22,8 +22,12 @@ a:hover{
     color: #3E3F13;
 }
 
-em:hover{
+em{
     color: #3E3F13;
+}
+
+em:hover{
+    font-size: 35px;
 }
 
 div.fixed {

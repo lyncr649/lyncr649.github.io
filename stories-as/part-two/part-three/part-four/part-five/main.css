@@ -12,7 +12,7 @@ p{
 }
 
 a, a:visited{
-    color: black; 
+    color: rgb(31, 31, 31); 
     text-decoration: none;
 }
 
@@ -20,8 +20,12 @@ a:hover{
     color: #F8DB65;
 }
 
+em{
+    color: #F8DB65;
+}
 em:hover{
     color: #F8DB65;
+    font-size: 40px;
 }
 
 div.fixed {
