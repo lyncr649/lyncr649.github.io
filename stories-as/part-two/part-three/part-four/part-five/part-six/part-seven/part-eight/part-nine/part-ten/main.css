@@ -7,7 +7,7 @@ body{
 }
 
 p{
-    font-size: 25px;
+    font-size: 30px;
     text-align: justify;
     padding: 10%;
 
@@ -27,7 +27,7 @@ em{
 }
 
 em:hover{
-    font-size: 35px;
+    font-size: 40px;
 }
 
 div.fixed {

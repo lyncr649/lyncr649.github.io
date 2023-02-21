@@ -5,10 +5,11 @@ body{
     font-family: 'Libre Baskerville', serif;
     padding-left: 20%;
     padding-right: 20%;
+    padding-top: 5%;
 }
 
 p{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 a, a:visited{
@@ -23,9 +24,10 @@ a:hover{
 em{
     color: #F8DB65;
 }
+
 em:hover{
     color: #F8DB65;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 div.fixed {

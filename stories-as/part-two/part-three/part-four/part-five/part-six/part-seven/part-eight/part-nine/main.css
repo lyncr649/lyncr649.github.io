@@ -20,8 +20,12 @@ a:hover{
     color: #F0F8FE;
 }
 
-em:hover{
+em{
     color: #F0F8FE;
+}
+
+em:hover{
+    font-size: 110px;
 }
 
 div.fixed {

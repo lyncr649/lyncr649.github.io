@@ -7,21 +7,26 @@ body{
 }
 
 p{
-    font-size: 45px;
+    font-size: 40px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
 a, a:visited{
     color: #1D0E0A;
+    text-decoration: none;
 }
 
 a:hover{
     color: #9EA3A7;
 }
 
-em:hover{
+em{
     color: #9EA3A7;
+}
+
+em:hover{
+    font-size: 50px;
 }
 
 div.fixed {
