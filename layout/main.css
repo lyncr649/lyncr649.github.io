@@ -69,10 +69,20 @@ div{
     position: relative;
     height: 35vh;
     width: 30vh;
-    background-color: #494745;
+    background-color: #4F4D49;
+    margin-left: 25vh;
+    margin-top: 13vh;
+}
+
+.backcircle{
+    position: relative;
+    height: 35vh;
+    width: 30vh;
+    background-color: #F9F5E5;
     opacity: 75%;
     margin-left: 25vh;
     margin-top: 13vh;
+    border-radius: 50%;
 
 }
 
