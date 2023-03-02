@@ -10,6 +10,9 @@ h1{
     text-align: center;
 }
 
+
+/* first artwork */
+
 figure.one{
     height: 80vh;
     width: 60vh;
@@ -47,6 +50,9 @@ figure.one{
     font-family: 'Rubik Iso', cursive;
 }
 
+
+/* second artwork */
+
 figure.two{
     height: 80vh;
     width: 60vh;
@@ -61,13 +67,17 @@ div{
 
 .blackbox{
     position: relative;
+    height: 35vh;
+    width: 30vh;
     background-color: #494745;
-    height: 30vh;
-    width: 20vh;
-    margin-top: -50vh;
-    margin-left: 40vh;
+    opacity: 75%;
+    margin-left: 25vh;
+    margin-top: 13vh;
+
 }
 
+
+/* third artwork */
 
 figure.three{
     height: 60vh;
