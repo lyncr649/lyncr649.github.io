@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
 body{
     background-color: white;
 }
@@ -17,27 +19,32 @@ figure.one{
 
 .one{
     background-color: #E5E6D4;
-    color: gray;
+    color: #B0B09F;
     font-size: 5vh;
+    font-family: 'Rubik Iso', cursive;
 }
 
 
 
 
 figure.three{
-    height: 80vh;
+    height: 60vh;
     width: 60vh;
     margin: 0 auto;
     overflow: hidden;
     background-color: #F7F9EF;
 }
 
-.dot {
+
+.circle {
     height: 50vh;
     width: 50vh;
-    background: linear-gradient( #232875, #232875 49%, #232875 49%, #C84535 51%, #C84535 51% );    border-radius: 50%;
-    display: inline-block;
-    margin: auto;
+    background: linear-gradient( #232875, #232875 49%, #232875 49%, #C84535 51%, #C84535 51% );    
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
   }
 
 
