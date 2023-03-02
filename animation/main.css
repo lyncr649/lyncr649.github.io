@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+@keyframes floating{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(500px)
+    }
+}
+
+.sphere{
+    width: 20vh;
+    height: 20vh;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: floating 3s infinite alternate ease-in-out;
+}
+
+.sphere:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+
+}
