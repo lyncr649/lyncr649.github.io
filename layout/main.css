@@ -124,6 +124,16 @@ figure.three{
     border-radius: 50%;
     display: flex;
     margin: 0 auto;
-    justify-content: center;
-    align-items: center;
+    margin-top: 5vh;
   }
+
+.redbar{
+    position: relative;
+    height: 5vh;
+    width: 25vh;
+    background-color: #C84535;
+    margin-top: -25vh;
+    margin-left: 5vh;
+    border-radius: 2px 0px 0px 30px;
+
+}
