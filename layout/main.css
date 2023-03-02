@@ -32,6 +32,10 @@ figure.two{
     background-color: #FBF7E8;
 }
 
+div{
+    display: block;
+}
+
 .blackbox{
     position: relative;
     background-color: #494745;
@@ -54,7 +58,7 @@ figure.three{
 .circle {
     height: 50vh;
     width: 50vh;
-    background: linear-gradient( #232875, #232875 49%, #232875 49%, #C84535 51%, #C84535 51% );    
+    background: linear-gradient( to bottom, #232875 54%, #C84535 54% 100% );    
     border-radius: 50%;
     display: flex;
     margin: 0 auto;
