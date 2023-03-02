@@ -76,16 +76,14 @@ div{
 
 .backcircle{
     position: relative;
-    height: 35vh;
-    width: 30vh;
+    height: 33vh;
+    width: 28vh;
     background-color: #F9F5E5;
-    opacity: 75%;
-    margin-left: 25vh;
-    margin-top: 13vh;
+    margin-left: 26vh;
+    margin-top: -35vh;
     border-radius: 50%;
 
 }
-
 
 /* third artwork */
 
