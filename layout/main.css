@@ -80,9 +80,30 @@ div{
     width: 28vh;
     background-color: #F9F5E5;
     margin-left: 26vh;
-    margin-top: -35vh;
+    margin-top: -34vh;
     border-radius: 50%;
 
+}
+
+.insideoval1{
+    position: relative;
+    height: 25vh;
+    width: 14vh;
+    background-color: #4F4D49;
+    margin-left: 31.5vh;
+    margin-top: -28vh;
+    border-radius: 50%;
+    rotate: 70deg;
+}
+
+.insideoval2{
+    position: relative;
+    height: 27vh;
+    width: 7vh;
+    background-color: #4F4D49;
+    margin-left: 38vh;
+    margin-top: -28vh;
+    border-radius: 50%;
 }
 
 /* third artwork */
