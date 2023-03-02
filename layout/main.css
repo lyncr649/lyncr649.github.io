@@ -1,3 +1,45 @@
 body{
-    background-color: yellow;
+    background-color: white;
 }
+
+h1{
+    padding: 1vh;
+    font-size: 45px;
+    text-align: center;
+}
+
+figure.one{
+    height: 80vh;
+    width: 60vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.one{
+    background-color: #E5E6D4;
+    color: gray;
+    font-size: 5vh;
+}
+
+
+
+
+figure.three{
+    height: 80vh;
+    width: 60vh;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #F7F9EF;
+}
+
+.dot {
+    height: 50vh;
+    width: 50vh;
+    background: linear-gradient( #232875, #232875 49%, #232875 49%, #C84535 51%, #C84535 51% );    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
+  }
+
+
+
+green 578B40 
