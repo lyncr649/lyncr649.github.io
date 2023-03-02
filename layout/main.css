@@ -93,7 +93,7 @@ div{
     position: relative;
     height: 35vh;
     width: 30vh;
-    background-color: #4F4D49;
+    background-color: #484343;
     margin-left: 25vh;
     margin-top: 13vh;
 }
@@ -113,7 +113,7 @@ div{
     position: relative;
     height: 25vh;
     width: 14vh;
-    background-color: #4F4D49;
+    background-color: #484343;
     margin-left: 31.5vh;
     margin-top: -28vh;
     border-radius: 50%;
@@ -124,7 +124,7 @@ div{
     position: relative;
     height: 27vh;
     width: 7vh;
-    background-color: #4F4D49;
+    background-color: #484343;
     margin-left: 38vh;
     margin-top: -28vh;
     border-radius: 50%;
@@ -134,9 +134,9 @@ div{
     position: relative;
     height: 20vh;
     width: 20vh;
-    border-color: #4E4D49;
+    border-color: #484343;
     border-radius: 50%;
-    border: 11px dotted #4E4D49;
+    border: 11px dotted #484343;
     margin-top: -22vh;
     margin-left: 30vh;
 }
@@ -155,7 +155,7 @@ figure.three{
 .circle {
     height: 50vh;
     width: 50vh;
-    background: linear-gradient( to bottom, #232875 54%, #C84535 54% 100% );    
+    background: linear-gradient( to bottom, #232875 54%, #CB4635 54% 100% );    
     border-radius: 50%;
     display: flex;
     margin: 0 auto;
@@ -166,7 +166,7 @@ figure.three{
     position: relative;
     height: 5vh;
     width: 25vh;
-    background-color: #C84535;
+    background-color: #CB4635;
     margin-top: -25vh;
     margin-left: 5vh;
     border-radius: 2px 0px 0px 30px;
