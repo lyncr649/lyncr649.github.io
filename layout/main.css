@@ -17,6 +17,29 @@ figure.one{
     overflow: hidden;
 }
 
+.greenblob1{
+    position: relative;
+    height: 30vh;
+    width: 30vh;
+    background-color: #578B40;
+    opacity: 75%;
+    margin-left: 25vh;
+    margin-top: -18vh;
+    rotate: -18deg;
+}
+
+.greenblob2{
+    position: relative;
+    height: 25vh;
+    width: 20vh;
+    background-color: #578B40;
+    opacity: 75%;
+    margin-left: 30vh;
+    margin-top: 13vh;
+    rotate: 25deg;
+
+}
+
 .one{
     background-color: #E5E6D4;
     color: #B0B09F;
@@ -65,7 +88,3 @@ figure.three{
     justify-content: center;
     align-items: center;
   }
-
-
-
-green 578B40 
