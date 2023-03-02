@@ -130,6 +130,17 @@ div{
     border-radius: 50%;
 }
 
+.spiral{
+    position: relative;
+    height: 20vh;
+    width: 20vh;
+    border-color: #4E4D49;
+    border-radius: 50%;
+    border: 11px dotted #4E4D49;
+    margin-top: -22vh;
+    margin-left: 30vh;
+}
+
 /* third artwork */
 
 figure.three{
