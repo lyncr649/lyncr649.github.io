@@ -44,6 +44,21 @@ figure.one{
     overflow: hidden;
 }
 
+.ate{
+    position: relative;
+    height: 40vh;
+    width: 20vh;
+    background-color: #d7d8c8;
+    margin-top: -20vh;
+    margin-left: 35vh;
+    font-size: 10vh;
+    font-family: 'Mynerve', cursive;
+    border-radius: 40%;
+    opacity: 50%;
+    rotate: 3deg;
+
+}
+
 .greenblob1{
     position: relative;
     height: 30vh;
@@ -88,6 +103,12 @@ figure.one{
     opacity: 50%;
     font-family: 'Mynerve', cursive;
 }
+
+
+
+
+
+
 
 /* second artwork */
 
