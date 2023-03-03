@@ -4,6 +4,10 @@ body{
     background-color: white;
 }
 
+.content{
+    margin: 0 auto;
+}
+
 h1{
     padding: 1vh;
     font-size: 45px;
@@ -150,6 +154,23 @@ div{
     margin-top: -22vh;
     margin-left: 30vh;
 }
+
+.curve{
+    position: relative;
+    height: 3vh;
+    width: 7vh;
+    border-radius: 50%/100px 100px 0 0;
+    border: 11px dotted #484343;
+    margin-top: -22vh;
+    margin-left: 35vh;
+}
+
+
+
+
+
+
+
 
 /* third artwork */
 
