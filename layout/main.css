@@ -85,6 +85,7 @@ figure.one{
     border-left: 150px solid #578B40;
     background-color: linear-gradient(#578B40, #D3BBBF);
     opacity: 20%;
+    rotate: 15deg;
   }
 
 .greenblob1{
