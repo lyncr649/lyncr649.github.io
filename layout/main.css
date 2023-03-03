@@ -56,7 +56,7 @@ figure.one{
     font-size: 10vh;
     font-family: 'Mynerve', cursive;
     border-radius: 40%;
-    opacity: 50%;
+    opacity: 60%;
     rotate: 3deg;
 
 }
@@ -84,9 +84,21 @@ figure.one{
     border-bottom: 150px solid transparent;
     border-left: 150px solid #578B40;
     background-color: linear-gradient(#578B40, #D3BBBF);
-    opacity: 20%;
+    opacity: 30%;
     rotate: 15deg;
   }
+
+.blob{
+    position: relative;
+    height: 25vh;
+    width: 10vh;
+    margin-top: -25vh;
+    margin-left: 10vh;
+    background-color: #d7d8c8;
+    border-radius: 15%;
+    rotate: -10deg;
+
+}
 
 .greenblob1{
     position: relative;
