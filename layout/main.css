@@ -12,6 +12,7 @@ h1{
     padding: 1vh;
     font-size: 45px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2{
@@ -34,6 +35,7 @@ a:hover{
 figcaption{
     padding-top: 3vh;
     padding-bottom: 7vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* first artwork */
 
@@ -66,7 +68,7 @@ figure.one{
     background-color: #d7d8c8;
     margin-top: -18vh;
     margin-left: 5vh;
-    font-size: 7vh;
+    font-size: 8vh;
     font-family: 'Mynerve', cursive;
     border-radius: 40%;
     opacity: 50%;
@@ -77,10 +79,11 @@ figure.one{
     width: 0; 
     height: 0; 
     margin-left: 10vh;
-    margin-top: -30vh;
+    margin-top: -45vh;
     border-top: 170px solid transparent;
     border-bottom: 150px solid transparent;
     border-left: 150px solid #578B40;
+    background-color: linear-gradient(#578B40, #D3BBBF);
     opacity: 20%;
   }
 
@@ -91,7 +94,7 @@ figure.one{
     background-color: #578B40;
     opacity: 85%;
     margin-left: 25vh;
-    margin-top: -72vh;
+    margin-top: -56vh;
     rotate: -18deg;
 }
 
