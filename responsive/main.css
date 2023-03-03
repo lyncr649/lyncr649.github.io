@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Rubik+Iso&display=swap');
 
-body{
-    background-color: white;
+:root{
+    --spacing: 10vh;
 }
 
+body{
+    background-color: white;
+    padding: var(--spacing);
+}
+
+header{
+    margin-bottom: calc(2 * var(--spacing));
+}
 .content{
     margin: 0 auto;
 }
@@ -37,201 +45,6 @@ figcaption{
     padding-bottom: 7vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/* first artwork */
-
-figure.one{
-    height: 80vh;
-    width: 60vh;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.ate{
-    position: relative;
-    height: 40vh;
-    width: 20vh;
-    background-color: #d7d8c8;
-    margin-top: -20vh;
-    margin-left: 35vh;
-    font-size: 10vh;
-    font-family: 'Mynerve', cursive;
-    border-radius: 40%;
-    opacity: 60%;
-    rotate: 3deg;
-
-}
-
-.mast{
-    position: relative;
-    height: 20vh;
-    width: 40vh;
-    background-color: #d7d8c8;
-    margin-top: -18vh;
-    margin-left: 5vh;
-    font-size: 8vh;
-    font-family: 'Mynerve', cursive;
-    border-radius: 40%;
-    opacity: 50%;
-    rotate: 90deg;
-}
-
-.arrow-right {
-    width: 0; 
-    height: 0; 
-    margin-left: 10vh;
-    margin-top: -45vh;
-    border-top: 170px solid transparent;
-    border-bottom: 150px solid transparent;
-    border-left: 150px solid #578B40;
-    background-color: linear-gradient(#578B40, #D3BBBF);
-    opacity: 30%;
-    rotate: 15deg;
-  }
-
-.blob{
-    position: relative;
-    height: 25vh;
-    width: 10vh;
-    margin-top: -25vh;
-    margin-left: 10vh;
-    background-color: #d7d8c8;
-    border-radius: 15%;
-    rotate: -10deg;
-
-}
-
-.greenblob1{
-    position: relative;
-    height: 30vh;
-    width: 30vh;
-    background-color: #578B40;
-    opacity: 85%;
-    margin-left: 25vh;
-    margin-top: -56vh;
-    rotate: -18deg;
-}
-
-.greenblob2{
-    position: relative;
-    height: 25vh;
-    width: 20vh;
-    background-color: #578B40;
-    opacity: 85%;
-    margin-left: 30vh;
-    margin-top: 13vh;
-    rotate: 25deg;
-
-}
-
-.one{
-    background-color: #E5E6D4;
-    color: #B0B09F;
-    font-size: 5vh;
-    font-family: 'Rubik Iso', cursive;
-}
-
-.text{
-    position: relative;
-    height: 40vh;
-    width: 40vh;
-    background-color: #d7d8c8; 
-    margin-top: 5vh;
-    margin-left: 10vh;
-    rotate: -5deg;
-    border-radius: 10%;
-    border-color: #bdbeab;
-    border: 10px;
-    opacity: 50%;
-    font-family: 'Mynerve', cursive;
-}
-
-
-
-
-
-
-
-/* second artwork */
-
-figure.two{
-    height: 80vh;
-    width: 60vh;
-    margin: 0 auto;
-    overflow: hidden;
-    background-color: #FBF7E8;
-}
-
-div{
-    display: block;
-}
-
-.blackbox{
-    position: relative;
-    height: 35vh;
-    width: 30vh;
-    background-color: #484343;
-    margin-left: 25vh;
-    margin-top: 13vh;
-}
-
-.backcircle{
-    position: relative;
-    height: 33vh;
-    width: 28vh;
-    background-color: #F9F5E5;
-    margin-left: 26vh;
-    margin-top: -34vh;
-    border-radius: 50%;
-
-}
-
-.insideoval1{
-    position: relative;
-    height: 25vh;
-    width: 14vh;
-    background-color: #484343;
-    margin-left: 31.5vh;
-    margin-top: -28vh;
-    border-radius: 50%;
-    rotate: 70deg;
-}
-
-.insideoval2{
-    position: relative;
-    height: 27vh;
-    width: 7vh;
-    background-color: #484343;
-    margin-left: 38vh;
-    margin-top: -28vh;
-    border-radius: 50%;
-}
-
-.spiral{
-    position: relative;
-    height: 20vh;
-    width: 20vh;
-    border-color: #484343;
-    border-radius: 50%;
-    border: 11px dotted #484343;
-    margin-top: -22vh;
-    margin-left: 30vh;
-}
-
-.curve{
-    position: relative;
-    height: 3vh;
-    width: 7vh;
-    border-radius: 50%/100px 100px 0 0;
-    border: 11px dotted #484343;
-    margin-top: -22vh;
-    margin-left: 35vh;
-}
-
-
-
-
-
-
 
 
 /* third artwork */
