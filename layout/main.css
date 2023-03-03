@@ -59,6 +59,31 @@ figure.one{
 
 }
 
+.mast{
+    position: relative;
+    height: 20vh;
+    width: 40vh;
+    background-color: #d7d8c8;
+    margin-top: -18vh;
+    margin-left: 5vh;
+    font-size: 7vh;
+    font-family: 'Mynerve', cursive;
+    border-radius: 40%;
+    opacity: 50%;
+    rotate: 90deg;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    margin-left: 10vh;
+    margin-top: -30vh;
+    border-top: 170px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid #578B40;
+    opacity: 20%;
+  }
+
 .greenblob1{
     position: relative;
     height: 30vh;
@@ -66,7 +91,7 @@ figure.one{
     background-color: #578B40;
     opacity: 85%;
     margin-left: 25vh;
-    margin-top: -40vh;
+    margin-top: -72vh;
     rotate: -18deg;
 }
 
