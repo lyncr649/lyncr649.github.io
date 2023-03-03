@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Rubik+Iso&display=swap');
 
 body{
     background-color: white;
@@ -19,6 +19,13 @@ p{
     text-align: center;
 }
 
+a{
+    color: #232875;
+}
+
+a:hover{
+    color: #CB4635;
+}
 
 figcaption{
     padding-top: 3vh;
@@ -72,7 +79,10 @@ figure.one{
     margin-left: 10vh;
     rotate: -5deg;
     border-radius: 10%;
+    border-color: #bdbeab;
+    border: 10px;
     opacity: 50%;
+    font-family: 'Mynerve', cursive;
 }
 
 /* second artwork */
