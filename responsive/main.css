@@ -18,7 +18,7 @@ header{
 }
 
 .content{
-    margin-right: calc(2 * var(--spacing));
+    margin: calc(2 * var(--spacing));
     
 }
 
@@ -59,11 +59,9 @@ figure.three{
     height: 60vh;
     width: 60vh;
     margin: var(--margin);
-    padding: 0;
-    border: 0;
     overflow: hidden;
     background-color: #F7F9EF;
-    display: block;
+    display: flex;
     vertical-align: baseline;
 }
 
