@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(0, 0, 56);
+}
+
+
+#star{
+    width: 50vh;
+    height: 60vh;
+    margin-top: 5vh;
+    animation: starspin, 4s infinite;
+    margin-left: 50vh;
+}
+
+#star2{
+    width: 60vh;
+    height: 70vh;
+    margin-top: -40vh;
+    animation: starspin, 4s infinite;
+    margin-left: 20vh;
+
+}
+
+#star3{
+    width: 50vh;
+    height: 60vh;
+    margin-top: -60vh;
+    margin-left: 70vh;
+    animation: starspin, 4s infinite;
+
+}
+
+#circle{
+    width: 70vh;
+    height: 70vh;
+    justify-content: center;
+    margin-top: -130vh;
+    margin-left: 107vh;
+    align-items: center;
+}
+
+#circle2{
+    width: 60vh;
+    height: 60vh;
+    justify-content: center;
+    margin-top: -200vh;
+    margin-left: 10vh;
+    align-items: center;
+}
+
+@keyframes starspin{
+    0%{
+        transform: rotate(0turn);
+    }
+
+    100%{
+        transform: rotate(1turn);
+    }
+}

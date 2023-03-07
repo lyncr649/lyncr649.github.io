@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(7, 6, 21);
 }
 
 @keyframes floating{
@@ -10,6 +10,7 @@ body{
         transform: translateY(500px)
     }
 }
+
 
 .sphere{
     width: 20vh;
@@ -33,7 +34,7 @@ p{
 }
 
 #star{
-    width: 400px;
+    width: 20vh;
     color: yellow;
     animation: starspin, fade 4s infinite;
 }
@@ -70,4 +71,14 @@ p{
     100%{
        fill: rgb(255, 255, 255);    
     }
+}
+
+
+.square{
+    height: 90vh;
+    width: 90vh;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    justify-content: center;
 }
