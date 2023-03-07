@@ -5,6 +5,7 @@
     --background-color: white;
     --margin: 0 auto;
     --font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 body{
@@ -17,7 +18,7 @@ header{
 }
 
 .content{
-    margin: 0 auto;
+    margin: var(--margin);
 }
 
 h1{
@@ -82,3 +83,33 @@ figure.three{
     border-radius: .3vh 0vh 0vh 4vh;
 
 }
+
+@media screen and (max-width: 1200px){
+    body{
+      background-color: rgb(217, 217, 217);
+      color: rgb(2, 0, 63);
+    }
+
+    .circle{
+        background: linear-gradient( to bottom, #072809 54%, #415800 54% 100% );  
+    }
+    .redbar{
+        background-color: #415800; 
+    }
+  }
+
+@media screen and (max-width: 600px){
+    body{
+      background-color: rgb(39, 91, 118);
+      color: rgb(39, 4, 4);
+    }
+
+    .circle{
+        background: linear-gradient( to bottom, #05072f 54%, #46120b 54% 100% );  
+    }
+    .redbar{
+        background-color: #46120b; 
+    }
+  }
+
+
