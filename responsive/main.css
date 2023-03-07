@@ -57,7 +57,7 @@ figcaption{
 figure.three{
     height: 60vh;
     width: 60vh;
-    margin: 0 auto;
+    margin: var(--margin);
     overflow: hidden;
     background-color: #F7F9EF;
 }
