@@ -2,14 +2,19 @@ body{
     background-color: rgb(0, 0, 56);
 }
 
+#wiggle{
+    position: absolute;
+    margin-top: -7vh;
+    animation: example 2s infinite;
+}
 
 #star{
     width: 50vh;
     height: 60vh;
     margin-top: 5vh;
     margin-left: 50vh;
-    animation: starspin 6s  infinite  yellow;
     position: absolute;
+    animation: starSpin 4s infinite;
 }
 
 
@@ -20,6 +25,7 @@ body{
     margin-top: 40vh;
     margin-left: 25vh;
     position: absolute;
+    animation: starSpin 4s infinite;
 }
 
 #star3{
@@ -28,30 +34,39 @@ body{
     margin-top: 60vh;
     margin-left: 80vh;
     position: absolute;
+    animation: starSpin 4s infinite;
 }
 
 #circle{
     width: 70vh;
     height: 70vh;
-    margin-top: 30vh;
-    margin-left: 107vh;
+    margin-top: 20vh;
+    margin-left: 100vh;
     position: absolute;
+    animation: starSpin 4s infinite;
 }
 
 #circle2{
     width: 60vh;
     height: 60vh;
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-left: 5vh;
     position: absolute;
+    animation: starSpin 4s infinite;
 }
 
-@keyframes starspin{
+@keyframes starSpin {
     0%{
         transform: rotate(0turn);
     }
-
     100%{
         transform: rotate(1turn);
     }
+    
 }
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
