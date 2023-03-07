@@ -5,7 +5,7 @@
     --background-color: white;
     --margin: 0 auto;
     --font-family: Georgia, 'Times New Roman', Times, serif;
-
+    border: 9vh;
 }
 
 body{
@@ -18,7 +18,8 @@ header{
 }
 
 .content{
-    margin: var(--margin);
+    margin-right: calc(2 * var(--spacing));
+    
 }
 
 h1{
@@ -58,8 +59,12 @@ figure.three{
     height: 60vh;
     width: 60vh;
     margin: var(--margin);
+    padding: 0;
+    border: 0;
     overflow: hidden;
     background-color: #F7F9EF;
+    display: block;
+    vertical-align: baseline;
 }
 
 
