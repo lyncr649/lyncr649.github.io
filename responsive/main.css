@@ -2,6 +2,9 @@
 
 :root{
     --spacing: 10vh;
+    --background-color: white;
+    --margin: 0 auto;
+    --font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body{
@@ -12,19 +15,20 @@ body{
 header{
     margin-bottom: calc(2 * var(--spacing));
 }
+
 .content{
     margin: 0 auto;
 }
 
 h1{
     padding: 1vh;
-    font-size: 45px;
+    font-size: 10vh;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2{
-    font-size: 25px;
+    font-size: 5vh;
     text-align: center;
 }
 
@@ -75,6 +79,6 @@ figure.three{
     background-color: #CB4635;
     margin-top: -25vh;
     margin-left: 5vh;
-    border-radius: 2px 0px 0px 30px;
+    border-radius: .3vh 0vh 0vh 4vh;
 
 }
