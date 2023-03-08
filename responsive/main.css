@@ -5,7 +5,6 @@
     --background-color: white;
     --margin: auto;
     --font-family: Georgia, 'Times New Roman', Times, serif;
-    --center: center;
     --border: 5vh;
 }
 
@@ -59,6 +58,7 @@ figcaption{
 /* third artwork */
 
 figure.three{
+    display: block;
     height: 60vh;
     width: 60vh;
     margin: var(--margin);
