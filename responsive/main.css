@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Rubik+Iso&display=swap');
 
 :root{
-    --spacing: 10vh;
+    --spacing: 2vh;
     --background-color: white;
-    --margin: 0 auto;
+    --margin: auto;
     --font-family: Georgia, 'Times New Roman', Times, serif;
+    --center: center;
+    --border: 5vh;
 }
 
 body{
@@ -18,6 +20,7 @@ header{
 
 .content{
     margin: calc(2 * var(--spacing));
+    display: block;
 }
 
 h1{
@@ -48,6 +51,8 @@ figcaption{
     padding-top: 3vh;
     padding-bottom: 7vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: var(--spacing);
+    text-align: var(--center);
 }
 
 
@@ -59,6 +64,8 @@ figure.three{
     margin: var(--margin);
     overflow: hidden;
     background-color: #F7F9EF;
+    vertical-align: baseline;
+    padding: 0;
 }
 
 
