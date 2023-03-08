@@ -5,7 +5,6 @@
     --background-color: white;
     --margin: 0 auto;
     --font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 9vh;
 }
 
 body{
@@ -14,12 +13,11 @@ body{
 }
 
 header{
-    margin-bottom: calc(2 * var(--spacing));
+    margin-bottom: var(--spacing);
 }
 
 .content{
     margin: calc(2 * var(--spacing));
-    
 }
 
 h1{
@@ -61,8 +59,6 @@ figure.three{
     margin: var(--margin);
     overflow: hidden;
     background-color: #F7F9EF;
-    display: flex;
-    vertical-align: baseline;
 }
 
 
