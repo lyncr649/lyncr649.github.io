@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Rubik+Iso&display=swap');
 
 :root{
-    --spacing: 2vh;
+    --spacing: 1vh;
     --background-color: white;
     --margin: auto;
     --font-family: Georgia, 'Times New Roman', Times, serif;
@@ -64,8 +64,7 @@ figure.three{
     margin: var(--margin);
     overflow: hidden;
     background-color: #F7F9EF;
-    vertical-align: baseline;
-    padding: 0;
+
 }
 
 
