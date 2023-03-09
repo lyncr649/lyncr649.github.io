@@ -3,15 +3,16 @@
 :root{
     --spacing: 2vh;
     --background-color: white;
-    --margin: auto;
     --font-family: Georgia, 'Times New Roman', Times, serif;
-    --border: 5vh;
+    --border: 8vh;
     --weight: 700;
     --border: 5vh;
+    --margin: 5vh;
 }
 
 body{
     background-color: white;
+    border: var(--border);
 }
 
 header{
