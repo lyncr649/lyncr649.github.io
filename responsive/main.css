@@ -27,6 +27,7 @@ header{
     align-items: center;
     text-align: center;
     padding-right: calc(4 * var(--spacing));
+    padding-left: calc(4 * var(--spacing));
 }
 
 h1{
@@ -66,6 +67,7 @@ figcaption{
 
 figure.three{
     display: block;
+    position: relative;
     height: 60vh;
     width: 60vh;
     margin: var(--margin);
