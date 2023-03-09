@@ -7,13 +7,12 @@
     --font-family: Georgia, 'Times New Roman', Times, serif;
     --border: 5vh;
     --weight: 700;
-    --width: 80%;
-
+    --border: 5vh;
 }
 
 body{
     background-color: white;
-    padding: var(--spacing);
+    padding: calc(2 * var(--spacing));
 }
 
 header{
