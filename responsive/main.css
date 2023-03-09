@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Rubik+Iso&display=swap');
 
 :root{
-    --spacing: 1vh;
+    --spacing: 2vh;
     --background-color: white;
     --margin: auto;
     --font-family: Georgia, 'Times New Roman', Times, serif;
@@ -12,7 +12,6 @@
 
 body{
     background-color: white;
-    padding: calc(2 * var(--spacing));
 }
 
 header{
@@ -27,6 +26,7 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-right: calc(4 * var(--spacing));
 }
 
 h1{
