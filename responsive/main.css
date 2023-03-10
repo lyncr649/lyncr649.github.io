@@ -20,7 +20,6 @@ header{
 
 .content{
     margin: calc(2 * var(--spacing));
-    position: absolute;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -68,7 +67,6 @@ figcaption{
 
 figure.three{
     display: block;
-    position: relative;
     height: 60vh;
     width: 60vh;
     margin: var(--margin);
@@ -76,7 +74,6 @@ figure.three{
     background-color: #F7F9EF;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 
@@ -129,11 +126,4 @@ figure.three{
     }
   }
 
-  @media screen and (max-width: 375px){
-        .three{
-            width: 60vh;
-
-        }
-
-  }
 
