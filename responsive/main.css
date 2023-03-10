@@ -3,8 +3,9 @@
 :root{
     --spacing: 2vh;
     --background-color: white;
-    --font-family: Georgia, 'Times New Roman', Times, serif;
+    --font-family: 
     --weight: 700;
+    --font: Arial, Helvetica, sans-serif;
     --border: 5vh;
     --margin: 5vh;
 }
@@ -12,6 +13,7 @@
 body{
     background-color: white;
     border: var(--border);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
