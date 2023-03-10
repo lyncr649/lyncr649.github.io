@@ -5,7 +5,7 @@ const renderItems = (collection) => {
 
 
 	// Loop through each item in the collection array
-	collection.forEach(item => {
+	collection.forEach((item) => {
 		const listItem = document.createElement('li') // Make the `li`
 
 
