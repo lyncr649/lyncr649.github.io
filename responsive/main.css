@@ -67,8 +67,8 @@ figcaption{
 
 figure.three{
     display: block;
-    height: 60vh;
-    width: 60vh;
+    height: 60vw;
+    width: 60vw;
     margin: var(--margin);
     overflow: hidden;
     background-color: #F7F9EF;
@@ -78,23 +78,23 @@ figure.three{
 
 
 .circle {
-    height: 50vh;
-    width: 50vh;
+    height: 50vw;
+    width: 50vw;
     background: linear-gradient( to bottom, #232875 54%, #CB4635 54% 100% );    
     border-radius: 50%;
     display: flex;
     margin: 0 auto;
-    margin-top: 5vh;
+    margin-top: 5vw;
   }
 
 .redbar{
     position: relative;
-    height: 5vh;
-    width: 25vh;
+    height: 5vw;
+    width: 25vw;
     background-color: #CB4635;
-    margin-top: -25vh;
-    margin-left: 5vh;
-    border-radius: .3vh 0vh 0vh 4vh;
+    margin-top: -25vw;
+    margin-left: 5vw;
+    border-radius: .3vw 0vw 0vw 4vw;
 
 }
 
