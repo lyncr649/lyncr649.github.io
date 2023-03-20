@@ -1,10 +1,224 @@
 [
 	{
-		"Resturant": "7th Street Burger",
-		"date": "september 9th",
+		"resturant": "7th Street Burger",
+		"date": "October 29, 2022",
 		"rating" : "9.5/10",
-		"image": "7thstreet.jpg",
-		"temp": "hot",
+		"image": "fries/7thstreet.jpg",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Bare Burger",
+		"date": "July 19, 2022",
+		"rating" : "8/10",
+		"image": "fries/bareburger.jpg",
+		"temp": "medium"
+	},
+
+	{
+		"resturant": "Beckys",
+		"date": "June 28, 2022",
+		"rating" : "9/10",
+		"image": "fries/beckys.jpg",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Burger King",
+		"date": "May 24, 2022",
+		"rating" : "7/10",
+		"image": "fries/bareburger.jpg",
+		"temp": "medium"
+	},
+
+	{
+		"resturant": "Cornell",
+		"date": "October 1, 2022",
+		"rating" : "6/10",
+		"image": "fries/cornell.jpg",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Cornell 2",
+		"date": "October 2, 2022",
+		"rating" : "9/10",
+		"image": "fries/cornell2.jpeg",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Duckfat",
+		"date": "June 17, 2022",
+		"rating" : "10/10",
+		"image": "fries/duckfat1.jpg",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Duckfat 2",
+		"date": "June 28, 2022",
+		"rating" : "10/10",
+		"image": "fries/duckfat2.jpg",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Duckfat 3",
+		"date": "March 13, 2023",
+		"rating" : "10/10",
+		"image": "fries/duckfat3.heic",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Lovely Day",
+		"date": "October 29, 2022",
+		"rating" : "8.5/10",
+		"image": "fries/lovelyday.jpg",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Mamouns",
+		"date": "October 28, 2022",
+		"rating" : "9/10",
+		"image": "fries/mamouns.jpg",
+		"temp": "hot"
 	},
 	
+	{
+		"resturant": "McDonalds",
+		"date": "July 12, 2022",
+		"rating" : "6/10",
+		"image": "fries/mcdonalds.jpg",
+		"temp": "cold"
+	},
+
+	{
+		"resturant": "Resturant",
+		"date": "July 26, 2022",
+		"rating" : "7/10",
+		"image": "fries/nice.jpg",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Nice 2",
+		"date": "July 30, 2022",
+		"rating" : "7/10",
+		"image": "fries/nice2.jpg",
+		"temp": "medium"
+	},
+
+	{
+		"resturant": "Nura",
+		"date": "June 28, 2022",
+		"rating" : "7.5/10",
+		"image": "fries/nura.jpg",
+		"temp": "medium"
+	},
+
+	{
+		"resturant": "Paris",
+		"date": "July 26, 2022",
+		"rating" : "7/10",
+		"image": "fries/paris.jpg",
+		"temp": "medium"
+	},
+
+	{
+		"resturant": "Pastis",
+		"date": "May 23, 2022",
+		"rating" : "8/10",
+		"image": "fries/pastis.jpg",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Sarah Lawrence Cafeteria",
+		"date": "March 4, 2023",
+		"rating" : "9/10",
+		"image": "fries/sarahlawrence.jpg",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Scarborough Beach ",
+		"date": "July 2, 2022",
+		"rating" : "10/10",
+		"image": "fries/scarbeach.jpg",
+		"temp": "hot"
+	},
+	{
+		"resturant": "University Center",
+		"date": "October 26, 2022",
+		"rating" : "3/10",
+		"image": "fries/uc1.jpg",
+		"temp": "cold"
+	},
+	{
+		"resturant": "University Center 2",
+		"date": "March 8, 2023",
+		"rating" : "7/10",
+		"image": "fries/uc2.jpg",
+		"temp": "medium"
+	},
+
+	{
+		"resturant": "University Center 3",
+		"date": "May 11, 2022",
+		"rating" : "7/10",
+		"image": "fries/uc3.jpg",
+		"temp": "medium"
+	},
+
+	{
+		"resturant": "Vernon Diner",
+		"date": "December 22, 2022",
+		"rating" : "8/10",
+		"image": "fries/vernon.jpeg",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Via Vecchia",
+		"date": "March 16, 2023",
+		"rating" : "8/10",
+		"image": "fries/viavecchia.heic",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Vienna",
+		"date": "August 2, 2022",
+		"rating" : "9/10",
+		"image": "fries/vienna.jpg",
+		"temp": "hot"
+	},
+
+	{
+		"resturant": "Washington Square Diner",
+		"date": "October 30, 2022",
+		"rating" : "8/10",
+		"image": "fries/washdiner.jpg",
+		"temp": "medium"
+	},
+
+	{
+		"resturant": "McDonalds 2",
+		"date": "March 17, 2022",
+		"rating" : "6/10",
+		"image": "fries/mcdonalds2.jpg",
+		"temp": "medium"
+	},
+
+	{
+		"resturant": "7th Street Burger 2",
+		"date": "March 19, 2023",
+		"rating" : "9/10",
+		"image": "fries/7thstreet2.jpg",
+		"temp": "hot"
+	}
+
 ]

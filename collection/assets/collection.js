@@ -11,21 +11,21 @@ const renderItems = (collection) => {
 
 		// You can make each element inside of that…
 		const itemTitle = document.createElement('h2') // Make an `h2`
-		itemTitle.innerHTML = item.title // Put the JSON title inside
+		itemTitle.innerHTML = item.resturant // Put the JSON title inside
 		listItem.appendChild(itemTitle) // And add it to the `li`!
 
 		const itemImage = document.createElement('img') // And an image
-		itemImage.src = item.posterImage // Set the `src` attribute from the JSON
+		itemImage.src = item.image // Set the `src` attribute from the JSON
 		listItem.appendChild(itemImage) // And add that too
 
 
 		// This can get annoying, so we can use “template literals” instead
 		const itemDetails =
 			`
-				<p>Released in <time>${item.year}</time></p>
-				<p><em>${item.runTime}</em></p>
+				<p><time>${item.date}</time></p>
+				<p><em>${item.rating}</em></p>
 				<a href="${item.imdbLink}">
-					<p>${item.imdbRating} / 10 →</p>
+					<p>${item.rating} / 10 →</p>
 				</a>
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
