@@ -21,29 +21,37 @@ body {
 .tablecloth{
     width: 45vw;
     height: 20vh;
-    background-color: pink;
+    background: repeating-linear-gradient( 90deg, pink 0px, white 5px, pink 6px, white 11px, pink 12px);
     position: absolute;
     margin-top: 40vw;
     margin-left: 25vw;
     transform: skew(40deg);
 }
 
-.mirror{
-    position: relative;
-    width: 10vw;
-    height: 10vw;
-    color: silver;
-    border-radius: 50%;
-}
-
 .toblerone{
     width: 20vw;
     height: 5vh;
-    background-color: silver;
-    margin-top: 32vw;
-    margin-left: 20vw;
+    background-color: black;
+    margin-top: 60vw;
+    margin-left: 47vw;
+    transform: skewX(10deg);
+    transform: skewY(3deg);
+    position: relative;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifx;
+    font-size: 4vh;
+    text-align: center;
 }
 
+.orange{
+    position: relative;
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+    background-color: orange;
+    margin-top: 35vw;
+    margin-left: 40vw;
+}
 
   
   
