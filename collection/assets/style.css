@@ -10,6 +10,12 @@ body {
 	font-family: sans-serif;
 	padding: var(--spacing);
 	padding-bottom: 33vh;
+	background-color: #F9E14B;
+	color: red;
+}
+
+h1{
+	font-family: kearu kearu;
 }
 
 aside { margin-bottom: calc(4 * var(--spacing)); }
