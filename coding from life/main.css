@@ -53,6 +53,17 @@ body {
     margin-left: 40vw;
 }
 
+.apple{
+    position: relative;
+    height: 6.5vw;
+    width: 7vw;
+    border-radius: 48%;
+    background-color: rgb(208, 106, 106);
+    margin-top: -6vw;
+    margin-left: 38vw;
+}
+
+
   
   
   /* Your CSS goes here */
