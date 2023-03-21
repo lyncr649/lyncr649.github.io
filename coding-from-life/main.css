@@ -29,37 +29,49 @@ body {
 }
 
 .toblerone{
-    width: 20vw;
-    height: 5vh;
-    background-color: black;
-    margin-top: 10vw;
-    margin-left: 47vw;
-    transform: skewX(10deg);
-    transform: skewY(3deg);
-    position: relative;
-    color: red;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifx;
-    font-size: 4vh;
-    text-align: center;
+  width: 20vw;
+  height: 5vh;
+  background-color: black;
+  margin-top: 45vw;
+  margin-left: 47vw;
+  transform: skewX(10deg);
+  transform: skewY(3deg);
+  position: absolute;
+  color: red;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifx;
+  font-size: 4vh;
+  text-align: center;
 }
 
 .orange{
-    position: relative;
+    position: absolute;
     height: 8vw;
     width: 8vw;
     border-radius: 50%;
     background-color: orange;
-    margin-top: 35vw;
+    margin-top: 38vw;
     margin-left: 40vw;
 }
 
 .apple{
-    position: relative;
+    position: absolute;
     height: 6.5vw;
     width: 7vw;
     border-radius: 48%;
     background-color: rgb(208, 106, 106);
-    margin-top: -6vw;
+    background-image: linear-gradient(rgb(208, 106, 106), rgb(166, 130, 73));
+    margin-top: 40vw;
     margin-left: 38vw;
+}
+
+.mirror{ 
+  position: absolute;
+  height: 12vw;
+  width: 12vw;
+  background-image: linear-gradient(silver, lightgray);
+  border-radius: 50%;
+  margin-top: 30vw;
+  margin-left: 50vw;
+  border: 2px lightgray;
 }
 
