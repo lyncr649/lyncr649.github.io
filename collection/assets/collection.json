@@ -32,7 +32,7 @@
 	},
 
 	{
-		"resturant": "Cornell",
+		"resturant": "Apple Fest Fair Fries",
 		"date": "October 1, 2022",
 		"rating" : "6/10",
 		"image": "fries/cornell.jpg",
@@ -40,7 +40,7 @@
 	},
 
 	{
-		"resturant": "Cornell 2",
+		"resturant": "Louie's Lunch",
 		"date": "October 2, 2022",
 		"rating" : "9/10",
 		"image": "fries/cornell2.jpeg",
