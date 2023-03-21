@@ -1,0 +1,45 @@
+/*
+
+You'll be positioning elements relative to a fluid container. This
+  means you might want to use percentages when positioning and sizing elements within
+  your frame.
+*/
+
+
+body {
+    background-color: lightgrey;
+  }
+  
+  .frame {
+    width: 95vw;
+    height: 57vw;
+    background: white;
+    margin: 2.5vw auto;
+    position: relative;
+  }
+
+.tablecloth{
+    width: 45vw;
+    height: 20vh;
+    background-color: pink;
+    position: absolute;
+    margin-top: 40vw;
+    margin-left: 25vw;
+    transform: skew(40deg);
+}
+
+.mirror{
+    width: 10vw;
+    height: 10vw;
+    color: black;
+    position: absolute;
+    margin-top: 50vw;
+    margin-left: 30vw;
+    border-radius: 50%;
+}
+
+
+  
+  
+  /* Your CSS goes here */
+  
