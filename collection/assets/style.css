@@ -24,6 +24,17 @@ h6{
 	animation: marquee 30s linear infinite;
 }
 
+.gallery-img{
+    max-width: 30vw;
+}
+
+.gallery{
+    /* display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit); */
+	display: flex;
+	flex-wrap: nowrap;
+}
 
 
 aside { margin-bottom: calc(4 * var(--spacing)); }
