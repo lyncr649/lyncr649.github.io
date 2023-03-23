@@ -1,11 +1,11 @@
 .gallery-img{
-    max-width: 30vw;
+    max-width: 20vw;
 }
 
 .gallery{
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit);
+    max-width: 20vw;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 p{
