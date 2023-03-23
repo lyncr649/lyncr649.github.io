@@ -1,0 +1,7 @@
+.gallery-img{
+    max-width: 30vw;
+}
+
+.gallery{
+    display: grid;
+}
