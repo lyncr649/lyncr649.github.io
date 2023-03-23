@@ -24,16 +24,11 @@ const renderItems = (collection) => {
 			`
 				<p><time>${item.date}</time></p>
 				<p><em>${item.rating}</em></p>
-				<a href="${item.imdbLink}">
-					<p>${item.rating} / 10 →</p>
 				</a>
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
-		// You can build logic from your data, too
-		if (!item.alsoWriter) { // If this is `false`
-			listItem.classList.add('faded') // Add this class to the whole `li`
-		}
+		
 
 		collectionList.appendChild(listItem) // Then add the whole `li` into the `ul`
 	})
