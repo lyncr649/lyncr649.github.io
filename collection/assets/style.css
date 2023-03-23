@@ -11,6 +11,7 @@ body {
 	padding-bottom: 33vh;
 	background-color: #F9E14B;
 	color: red;
+	text-align: center;
 }
 
 h1{
@@ -32,6 +33,7 @@ h6{
     /* display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit); */
+	margin: 4vw;
 	display: flex;
 	flex-wrap: nowrap;
 }
