@@ -24,6 +24,8 @@ h6{
 	animation: marquee 30s linear infinite;
 }
 
+
+
 aside { margin-bottom: calc(4 * var(--spacing)); }
 
 h1 { font-size: 200%; }
@@ -36,6 +38,7 @@ em { font-style: italic }
 
 ul {
 	display: grid;
+    grid-template-columns: repeat(auto-fit);
 	gap: calc(4 * var(--spacing));
 	margin-top: calc(4 * var(--spacing));
 }

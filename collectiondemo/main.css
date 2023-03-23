@@ -4,4 +4,11 @@
 
 .gallery{
     display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
 }
