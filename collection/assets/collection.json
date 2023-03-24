@@ -32,7 +32,7 @@
 	},
 
 	{
-		"resturant": "Apple Fest Fair Fries",
+		"resturant": "Apple Fest Fair",
 		"date": "October 1, 2022",
 		"rating" : "6/10",
 		"image": "./assets/fries/cornell.jpg",
@@ -56,7 +56,7 @@
 	},
 
 	{
-		"resturant": "Duckfat 2",
+		"resturant": "Duckfat",
 		"date": "June 28, 2022",
 		"rating" : "10/10",
 		"image": "./assets/fries/duckfat2.jpg",
@@ -64,7 +64,7 @@
 	},
 
 	{
-		"resturant": "Duckfat 3",
+		"resturant": "Duckfat",
 		"date": "March 13, 2023",
 		"rating" : "10/10",
 		"image": "./assets/fries/duckfat3.jpeg",
@@ -136,7 +136,7 @@
 	},
 
 	{
-		"resturant": "Sarah Lawrence Cafeteria",
+		"resturant": "Sarah Lawrence",
 		"date": "March 4, 2023",
 		"rating" : "9/10",
 		"image": "./assets/fries/sarahlawrence.jpeg",
@@ -206,7 +206,7 @@
 	},
 
 	{
-		"resturant": "McDonalds 2",
+		"resturant": "McDonalds",
 		"date": "March 17, 2022",
 		"rating" : "6/10",
 		"image": "./assets/fries/mcdonalds2.jpeg",
@@ -214,7 +214,7 @@
 	},
 
 	{
-		"resturant": "7th Street Burger 2",
+		"resturant": "7th Street Burger",
 		"date": "March 19, 2023",
 		"rating" : "9/10",
 		"image": "./assets/fries/7thstreet2.jpeg",
