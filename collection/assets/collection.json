@@ -4,7 +4,8 @@
 		"date": "October 29, 2022",
 		"rating" : "9.5/10",
 		"image": "./assets/fries/7thstreet.jpg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 
 	{
@@ -12,7 +13,8 @@
 		"date": "July 19, 2022",
 		"rating" : "8/10",
 		"image": "./assets/fries/bareburger.jpg",
-		"temp": "lukewarm"
+		"temp": "lukewarm",
+		"crispy": false
 	},
 
 	{
@@ -20,7 +22,8 @@
 		"date": "June 28, 2022",
 		"rating" : "9/10",
 		"image": "./assets/fries/beckys.jpg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 
 	{
@@ -28,7 +31,8 @@
 		"date": "May 24, 2022",
 		"rating" : "7/10",
 		"image": "./assets/fries/burgerking.jpg",
-		"temp": "lukewarm"
+		"temp": "lukewarm",
+		"crispy": true
 	},
 
 	{
@@ -36,7 +40,8 @@
 		"date": "October 1, 2022",
 		"rating" : "6/10",
 		"image": "./assets/fries/cornell.jpg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": false
 	},
 
 	{
@@ -44,7 +49,8 @@
 		"date": "October 2, 2022",
 		"rating" : "9/10",
 		"image": "./assets/fries/cornell2.jpeg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 
 	{
@@ -52,7 +58,8 @@
 		"date": "June 17, 2022",
 		"rating" : "10/10",
 		"image": "./assets/fries/duckfat1.jpg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 
 	{
@@ -60,7 +67,8 @@
 		"date": "June 28, 2022",
 		"rating" : "10/10",
 		"image": "./assets/fries/duckfat2.jpg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 
 	{
@@ -68,7 +76,8 @@
 		"date": "March 13, 2023",
 		"rating" : "10/10",
 		"image": "./assets/fries/duckfat3.jpeg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 
 	{
@@ -76,7 +85,8 @@
 		"date": "October 29, 2022",
 		"rating" : "8.5/10",
 		"image": "./assets/fries/lovelyday.jpg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": false
 	},
 
 	{
@@ -84,7 +94,8 @@
 		"date": "October 28, 2022",
 		"rating" : "9/10",
 		"image": "./assets/fries/mamouns.jpg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 	
 	{
@@ -92,7 +103,8 @@
 		"date": "July 12, 2022",
 		"rating" : "3/10",
 		"image": "./assets/fries/mcdonalds.jpg",
-		"temp": "cold"
+		"temp": "cold",
+		"crispy": false
 	},
 
 	{
@@ -100,7 +112,8 @@
 		"date": "July 26, 2022",
 		"rating" : "7/10",
 		"image": "./assets/fries/nice.jpg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 
 	{
@@ -108,7 +121,8 @@
 		"date": "July 30, 2022",
 		"rating" : "7/10",
 		"image": "./assets/fries/nice2.jpg",
-		"temp": "lukewarm"
+		"temp": "lukewarm",
+		"crispy": false
 	},
 
 	{
@@ -116,7 +130,8 @@
 		"date": "June 28, 2022",
 		"rating" : "7.5/10",
 		"image": "./assets/fries/nura.jpg",
-		"temp": "lukewarm"
+		"temp": "lukewarm",
+		"crispy": false
 	},
 
 	{
@@ -124,7 +139,8 @@
 		"date": "July 26, 2022",
 		"rating" : "7/10",
 		"image": "./assets/fries/paris.jpg",
-		"temp": "lukewarm"
+		"temp": "lukewarm",
+		"crispy": false
 	},
 
 	{
@@ -132,7 +148,8 @@
 		"date": "May 23, 2022",
 		"rating" : "8/10",
 		"image": "./assets/fries/pastis.jpg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 
 	{
@@ -140,7 +157,8 @@
 		"date": "March 4, 2023",
 		"rating" : "8.5/10",
 		"image": "./assets/fries/sarahlawrence.jpeg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 
 	{
@@ -148,21 +166,24 @@
 		"date": "July 2, 2022",
 		"rating" : "10/10",
 		"image": "./assets/fries/scarbeach.jpg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 	{
 		"resturant": "University Center",
 		"date": "October 26, 2022",
 		"rating" : "2/10",
 		"image": "./assets/fries/uc1.jpg",
-		"temp": "cold"
+		"temp": "cold",
+		"crispy": false
 	},
 	{
 		"resturant": "University Center",
 		"date": "March 8, 2023",
 		"rating" : "5/10",
 		"image": "./assets/fries/uc2.jpeg",
-		"temp": "lukewarm"
+		"temp": "lukewarm",
+		"crispy": false
 	},
 
 	{
@@ -170,7 +191,8 @@
 		"date": "May 11, 2022",
 		"rating" : "6/10",
 		"image": "./assets/fries/uc3.jpg",
-		"temp": "lukewarm"
+		"temp": "lukewarm",
+		"crispy": true
 	},
 
 	{
@@ -178,7 +200,8 @@
 		"date": "December 22, 2022",
 		"rating" : "8/10",
 		"image": "./assets/fries/vernon.jpeg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 
 	{
@@ -186,7 +209,8 @@
 		"date": "March 16, 2023",
 		"rating" : "8/10",
 		"image": "./assets/fries/viavecchia.jpeg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 
 	{
@@ -194,7 +218,8 @@
 		"date": "August 2, 2022",
 		"rating" : "9/10",
 		"image": "./assets/fries/vienna.jpg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	},
 
 	{
@@ -202,7 +227,8 @@
 		"date": "October 30, 2022",
 		"rating" : "7/10",
 		"image": "./assets/fries/washdiner.jpg",
-		"temp": "lukewarm"
+		"temp": "lukewarm",
+		"crispy": true
 	},
 
 	{
@@ -210,7 +236,8 @@
 		"date": "March 17, 2022",
 		"rating" : "5/10",
 		"image": "./assets/fries/mcdonalds2.jpeg",
-		"temp": "lukewarm"
+		"temp": "lukewarm",
+		"crispy": false
 	},
 
 	{
@@ -218,7 +245,8 @@
 		"date": "March 19, 2023",
 		"rating" : "9/10",
 		"image": "./assets/fries/7thstreet2.jpeg",
-		"temp": "hot"
+		"temp": "hot",
+		"crispy": true
 	}
 
 ]

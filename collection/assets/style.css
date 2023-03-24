@@ -69,6 +69,10 @@ li {
 	}
   } */
 
+  a:hover{
+    color: blue;
+}
+
 
   #collection {
 	display: grid;

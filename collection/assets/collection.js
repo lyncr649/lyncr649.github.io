@@ -29,6 +29,10 @@ const renderItems = (collection) => {
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
+
+		if (item.crispy) {
+			listItem.classList.add("crispy")
+		}
 		
 
 		collectionList.appendChild(listItem) // Then add the whole `li` into the `ul`
