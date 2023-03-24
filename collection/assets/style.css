@@ -1,4 +1,10 @@
 /* Just to make the demo easier to work with. */
+@font-face {
+    font-family: Kaeru Kaeru ;
+    src:url(https://github.com/unified-font-repository/Unified-Font-Repository);
+}
+
+
 :root {
 	--spacing: 1em;
 }
@@ -6,7 +12,7 @@
 
 
 body {
-	font-family: sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	padding: var(--spacing);
 	padding-bottom: 33vh;
 	background-color: #F9E14B;
@@ -17,12 +23,15 @@ body {
 h1{
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-	font-size: 5vw;
+	font-size: 10vw;
+	padding: 3vw;
+
 }
 
 h6{
 	text-align: center;
-	animation: marquee 30s linear infinite;
+	text-decoration: underline dotted 2px;
+	/* animation: marquee 30s linear infinite; */
 }
 
 .gallery-img{
@@ -41,7 +50,7 @@ h6{
 
 aside { margin-bottom: calc(4 * var(--spacing)); }
 
-h1 { font-size: 200%; }
+/* h1 { font-size: 200%; } */
 
 h2 { font-weight: bold; }
 
@@ -63,7 +72,7 @@ li {
 
 .faded { opacity: 0.333 }
 
-
+/* 
 @keyframes marquee {
 	0% {
 	  transform: translateX(100%);
@@ -71,4 +80,23 @@ li {
 	100% {
 	  transform: translateX(-100%);
 	}
+  } */
+
+
+  #image-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
   }
+  
+  figure {
+	margin: 0;
+  }
+  
+  img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+
