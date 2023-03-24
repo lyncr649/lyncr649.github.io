@@ -1,7 +1,7 @@
 /* Just to make the demo easier to work with. */
 @font-face {
     font-family: Kaeru Kaeru ;
-    src:url(https://github.com/unified-font-repository/Unified-Font-Repository);
+    src:url(kaerukaeru-Regular.otf);
 }
 
 
@@ -9,7 +9,9 @@
 	--spacing: 1em;
 }
 
-
+a:hover{
+	color: blue;
+}
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +23,7 @@ body {
 }
 
 h1{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: kaeru kaeru;
 	text-align: center;
 	font-size: 10vw;
 	padding: 3vw;
@@ -34,18 +36,7 @@ h6{
 	/* animation: marquee 30s linear infinite; */
 }
 
-.gallery-img{
-    max-width: 30vw;
-}
 
-.gallery{
-    /* display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit); */
-	margin: 4vw;
-	display: flex;
-	flex-wrap: nowrap;
-}
 
 
 aside { margin-bottom: calc(4 * var(--spacing)); }
@@ -53,8 +44,6 @@ aside { margin-bottom: calc(4 * var(--spacing)); }
 /* h1 { font-size: 200%; } */
 
 h2 { font-weight: bold; }
-
-a { color: blue; }
 
 em { font-style: italic }
 
@@ -86,8 +75,8 @@ li {
   #collection {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-column-gap: 10px;
-	grid-row-gap: 10px;
+	grid-column-gap: 2vw;
+	grid-row-gap: 7vw;
   }
   
   figure {
@@ -108,7 +97,7 @@ li {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-column-gap: 10px;
-		grid-row-gap: 10px;
+		grid-row-gap: 5vw;
 	  }
 
   }

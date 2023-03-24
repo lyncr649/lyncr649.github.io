@@ -90,7 +90,7 @@
 	{
 		"resturant": "McDonalds",
 		"date": "July 12, 2022",
-		"rating" : "6/10",
+		"rating" : "3/10",
 		"image": "./assets/fries/mcdonalds.jpg",
 		"temp": "cold"
 	},
@@ -138,7 +138,7 @@
 	{
 		"resturant": "Sarah Lawrence",
 		"date": "March 4, 2023",
-		"rating" : "9/10",
+		"rating" : "8.5/10",
 		"image": "./assets/fries/sarahlawrence.jpeg",
 		"temp": "hot"
 	},
@@ -153,14 +153,14 @@
 	{
 		"resturant": "University Center",
 		"date": "October 26, 2022",
-		"rating" : "3/10",
+		"rating" : "2/10",
 		"image": "./assets/fries/uc1.jpg",
 		"temp": "cold"
 	},
 	{
 		"resturant": "University Center",
 		"date": "March 8, 2023",
-		"rating" : "7/10",
+		"rating" : "5/10",
 		"image": "./assets/fries/uc2.jpeg",
 		"temp": "lukewarm"
 	},
@@ -168,7 +168,7 @@
 	{
 		"resturant": "University Center",
 		"date": "May 11, 2022",
-		"rating" : "7/10",
+		"rating" : "6/10",
 		"image": "./assets/fries/uc3.jpg",
 		"temp": "lukewarm"
 	},
@@ -200,7 +200,7 @@
 	{
 		"resturant": "Washington Square Diner",
 		"date": "October 30, 2022",
-		"rating" : "8/10",
+		"rating" : "7/10",
 		"image": "./assets/fries/washdiner.jpg",
 		"temp": "lukewarm"
 	},
@@ -208,7 +208,7 @@
 	{
 		"resturant": "McDonalds",
 		"date": "March 17, 2022",
-		"rating" : "6/10",
+		"rating" : "5/10",
 		"image": "./assets/fries/mcdonalds2.jpeg",
 		"temp": "lukewarm"
 	},
