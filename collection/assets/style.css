@@ -76,7 +76,7 @@ li {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-column-gap: 2vw;
-	grid-row-gap: 7vw;
+	grid-row-gap: 5vw;
   }
   
   figure {
