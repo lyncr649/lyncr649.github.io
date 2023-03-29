@@ -35,6 +35,7 @@ const renderItems = (collection) => {
 		}
 		
 
+
 		collectionList.appendChild(listItem) // Then add the whole `li` into the `ul`
 	})
 }
