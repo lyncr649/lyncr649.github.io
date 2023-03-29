@@ -22,7 +22,7 @@ const renderItems = (collection) => {
 		// This can get annoying, so we can use “template literals” instead
 		const itemDetails =
 			`
-				<p><time>${item.date}</time></p>
+				<h3><time>${item.date}</time></h3>
 				<p><time>${item.temp}</time></p>
 				<p><em>${item.rating}</em></p>
 				</a>
@@ -30,15 +30,14 @@ const renderItems = (collection) => {
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
 
-		if (item.crispy) {
-			listItem.classList.add("crispy")
+		if (!item.crispy) {
+			listItem.classList.add("faded")
 		}
 		
 
 		collectionList.appendChild(listItem) // Then add the whole `li` into the `ul`
 	})
 }
-
 
 
 // Fetch gets your JSON file…

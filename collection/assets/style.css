@@ -1,8 +1,11 @@
 /* Just to make the demo easier to work with. */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;400;600&display=swap');
 @font-face {
     font-family: Kaeru Kaeru ;
-    src:url(kaerukaeru-Regular.otf);
+    src:url(kaerukaeru-Regular.woff);
+	src:url(kaerukaeru-Regular.woff2);
 }
+
 
 
 :root {
@@ -12,7 +15,7 @@
 
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Hanken Grotesk', sans-serif;
 	padding: var(--spacing);
 	padding-bottom: 33vh;
 	background-color: #F9E14B;
@@ -28,6 +31,7 @@ h1{
 
 }
 
+
 h6{
 	text-align: center;
 	text-decoration: underline dotted 2px;
@@ -41,15 +45,24 @@ aside { margin-bottom: calc(4 * var(--spacing)); }
 
 /* h1 { font-size: 200%; } */
 
-h2 { font-weight: bold; }
+h2 { 
+	font-weight: bold; 
+}
 
-em { font-style: italic }
+em { 
+	font-style: italic 
+}
 
 ul {
 	display: grid;
     grid-template-columns: repeat(auto-fit);
 	gap: calc(4 * var(--spacing));
 	margin-top: calc(4 * var(--spacing));
+}
+
+h3{
+	font-size: 15px;
+	font-family: 'Hanken Grotesk', sans-serif;
 }
 
 li {
