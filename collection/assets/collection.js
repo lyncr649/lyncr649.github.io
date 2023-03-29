@@ -30,9 +30,9 @@ const renderItems = (collection) => {
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
 
-		if (!item.crispy) {
-			listItem.classList.add("faded")
-		}
+		// if (!item.crispy) {
+		// 	listItem.classList.add("faded")
+		// }
 		
 
 
