@@ -46,11 +46,13 @@ aside { margin-bottom: calc(4 * var(--spacing)); }
 /* h1 { font-size: 200%; } */
 
 h2 { 
-	font-weight: bold; 
+	font-weight: bold;
+	font-size: 20px; 
 }
 
 em { 
-	font-style: italic 
+	font-style: italic;
+	font-size: 2vw; 
 }
 
 ul {
@@ -61,7 +63,7 @@ ul {
 }
 
 h3{
-	font-size: 15px;
+	font-size: 17px;
 	font-family: 'Hanken Grotesk', sans-serif;
 }
 
@@ -91,7 +93,7 @@ li {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-column-gap: 2vw;
-	grid-row-gap: 5vw;
+	grid-row-gap: 6vw;
   }
   
   figure {
@@ -112,8 +114,12 @@ li {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-column-gap: 10px;
-		grid-row-gap: 5vw;
+		grid-row-gap: 7vw;
 	  }
+
+	h2{
+		font-size: 15px;
+	}
 
   }
 
