@@ -24,8 +24,11 @@ const renderItems = (collection) => {
 			`
 				<h3><time>${item.date}</time></h3>
 				<p><time>${item.temp}</time></p>
-				<p><em>${item.rating}</em></p>
+
+				<a href="${item.link}">
+					<p><em>${item.rating}→</em></p>
 				</a>
+		
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 

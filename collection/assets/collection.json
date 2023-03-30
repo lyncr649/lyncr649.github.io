@@ -5,6 +5,7 @@
 		"rating" : "9.5/10",
 		"image": "./assets/fries/7thstreet.jpg",
 		"temp": "hot",
+		"link": "https://www.7thstreetburger.com/",
 		"crispy": true
 	},
 
@@ -14,6 +15,7 @@
 		"rating" : "8/10",
 		"image": "./assets/fries/bareburger.jpg",
 		"temp": "lukewarm",
+		"link": "https://www.bareburger.com/",
 		"crispy": false
 	},
 
@@ -23,6 +25,7 @@
 		"rating" : "9/10",
 		"image": "./assets/fries/beckys.jpg",
 		"temp": "hot",
+		"link": "https://www.beckysdiner.com/",
 		"crispy": true
 	},
 
@@ -32,6 +35,7 @@
 		"rating" : "7/10",
 		"image": "./assets/fries/burgerking.jpg",
 		"temp": "lukewarm",
+		"link": "https://www.bk.com/",
 		"crispy": true
 	},
 
@@ -41,6 +45,7 @@
 		"rating" : "6/10",
 		"image": "./assets/fries/cornell.jpg",
 		"temp": "hot",
+		"link": "https://www.downtownithaca.com/apple-harvest-festival/",
 		"crispy": false
 	},
 
@@ -50,6 +55,7 @@
 		"rating" : "9/10",
 		"image": "./assets/fries/cornell2.jpeg",
 		"temp": "hot",
+		"link": "http://louieslunch.com/",
 		"crispy": true
 	},
 
@@ -59,6 +65,7 @@
 		"rating" : "10/10",
 		"image": "./assets/fries/duckfat1.jpg",
 		"temp": "hot",
+		"link": "https://www.duckfat.com/",
 		"crispy": true
 	},
 
@@ -68,6 +75,7 @@
 		"rating" : "10/10",
 		"image": "./assets/fries/duckfat2.jpg",
 		"temp": "hot",
+		"link": "https://www.duckfat.com/",
 		"crispy": true
 	},
 
@@ -77,6 +85,7 @@
 		"rating" : "10/10",
 		"image": "./assets/fries/duckfat3.jpeg",
 		"temp": "hot",
+		"link": "https://www.duckfat.com/",
 		"crispy": true
 	},
 
@@ -86,6 +95,7 @@
 		"rating" : "8.5/10",
 		"image": "./assets/fries/lovelyday.jpg",
 		"temp": "hot",
+		"link": "https://www.lovelydaynyc.com/",
 		"crispy": false
 	},
 
@@ -95,6 +105,7 @@
 		"rating" : "9/10",
 		"image": "./assets/fries/mamouns.jpg",
 		"temp": "hot",
+		"link": "https://www.mamouns.com/",
 		"crispy": true
 	},
 	
@@ -104,6 +115,7 @@
 		"rating" : "3/10",
 		"image": "./assets/fries/mcdonalds.jpg",
 		"temp": "cold",
+		"link": "https://www.mcdonalds.com/us/en-us.html",
 		"crispy": false
 	},
 
@@ -113,6 +125,7 @@
 		"rating" : "7/10",
 		"image": "./assets/fries/nice.jpg",
 		"temp": "hot",
+		"link": "https://www.magnolia-cafe-restaurant-nice.com/",
 		"crispy": true
 	},
 
@@ -122,6 +135,7 @@
 		"rating" : "7/10",
 		"image": "./assets/fries/nice2.jpg",
 		"temp": "lukewarm",
+		"link": "https://kalosnice.com/",
 		"crispy": false
 	},
 
@@ -131,6 +145,7 @@
 		"rating" : "7.5/10",
 		"image": "./assets/fries/nura.jpg",
 		"temp": "lukewarm",
+		"link": "https://www.nuraportland.com/",
 		"crispy": false
 	},
 
@@ -140,6 +155,7 @@
 		"rating" : "7/10",
 		"image": "./assets/fries/paris.jpg",
 		"temp": "lukewarm",
+		"link": "https://brasserielesolferino.fr/en",
 		"crispy": false
 	},
 
@@ -149,6 +165,7 @@
 		"rating" : "8/10",
 		"image": "./assets/fries/pastis.jpg",
 		"temp": "hot",
+		"link": "https://pastisnyc.com/",
 		"crispy": true
 	},
 
@@ -158,6 +175,7 @@
 		"rating" : "8.5/10",
 		"image": "./assets/fries/sarahlawrence.jpeg",
 		"temp": "hot",
+		"link": "https://www.sarahlawrence.edu/student-life/housing-and-dining/dining-venues.html",
 		"crispy": true
 	},
 
@@ -167,6 +185,7 @@
 		"rating" : "10/10",
 		"image": "./assets/fries/scarbeach.jpg",
 		"temp": "hot",
+		"link": "https://www.mainelyburgers.com/catering-maine-food-trucks",
 		"crispy": true
 	},
 	{
@@ -175,6 +194,7 @@
 		"rating" : "2/10",
 		"image": "./assets/fries/uc1.jpg",
 		"temp": "cold",
+		"link": "https://www.newschool.edu/university-center/",
 		"crispy": false
 	},
 	{
@@ -183,6 +203,7 @@
 		"rating" : "5/10",
 		"image": "./assets/fries/uc2.jpeg",
 		"temp": "lukewarm",
+		"link": "https://www.newschool.edu/university-center/",
 		"crispy": false
 	},
 
@@ -192,6 +213,7 @@
 		"rating" : "6/10",
 		"image": "./assets/fries/uc3.jpg",
 		"temp": "lukewarm",
+		"link": "https://www.newschool.edu/university-center/",
 		"crispy": true
 	},
 
@@ -201,6 +223,7 @@
 		"rating" : "8/10",
 		"image": "./assets/fries/vernon.jpeg",
 		"temp": "hot",
+		"link": "https://www.vernondiner.com/",
 		"crispy": true
 	},
 
@@ -210,6 +233,7 @@
 		"rating" : "8/10",
 		"image": "./assets/fries/viavecchia.jpeg",
 		"temp": "hot",
+		"link": "https://vvoldport.com/",
 		"crispy": true
 	},
 
@@ -219,6 +243,7 @@
 		"rating" : "9/10",
 		"image": "./assets/fries/vienna.jpg",
 		"temp": "hot",
+		"link": "https://www.figlmueller.at/en/",
 		"crispy": true
 	},
 
@@ -228,6 +253,7 @@
 		"rating" : "7/10",
 		"image": "./assets/fries/washdiner.jpg",
 		"temp": "lukewarm",
+		"link": "http://www.washingtonsquarediner.com/",
 		"crispy": true
 	},
 
@@ -237,6 +263,7 @@
 		"rating" : "5/10",
 		"image": "./assets/fries/mcdonalds2.jpeg",
 		"temp": "lukewarm",
+		"link": "https://www.mcdonalds.com/us/en-us.html",
 		"crispy": false
 	},
 
@@ -246,6 +273,7 @@
 		"rating" : "9/10",
 		"image": "./assets/fries/7thstreet2.jpeg",
 		"temp": "hot",
+		"link": "https://www.7thstreetburger.com/",
 		"crispy": true
 	}
 
