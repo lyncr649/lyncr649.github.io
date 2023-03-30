@@ -1,34 +1,51 @@
+
+
 body{
+    background-image:url('fantasticplan.gif'); background-size: 100%;
     background-color: rgb(108, 144, 159);
 }
+
 
 h1{
     text-align: center;
     color: rgb(132, 27, 27);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 400px;
+    font-size: 30vw;
 
 }
 
 h2{
     text-align: center;
-    color: rgb(226, 177, 177);
+    color: rgb(132, 27, 27);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
+    margin-top: -20vw;
 
 }
 
 h3{
-    font-size: 20px;
+    font-size: 6vw;
     color:  rgb(132, 27, 27);
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(226, 177, 177);
-    font-size: 15px;
+    font-size: 35px;
+}
+
+ul{
+    font-size: 4vw;
+}
+
+a{
+    color: rgb(228, 228, 228);
+}
+
+a:visited{
+    color: darkkhaki;
 }
 
 a:hover{
-    color: rgb(132, 27, 27);
+    color: rgb(92, 121, 215);
    }
