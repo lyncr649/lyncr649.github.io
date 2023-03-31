@@ -36,6 +36,7 @@ p{
 
 ul{
     font-size: 4vw;
+    /* column-count: 2; */
 }
 
 a{
@@ -49,3 +50,8 @@ a:visited{
 a:hover{
     color: #98C4C6;
    }
+
+
+.column{
+    display: flex;
+}
