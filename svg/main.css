@@ -1,0 +1,13 @@
+:root {
+    --spacing: 20px;
+}
+
+@media (min-width: 768px) {
+    :root{
+        --spacing: 60px;
+    }
+}
+
+header{
+    margin-bottom: calc(var(--spacing) * 2);
+}
