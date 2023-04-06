@@ -11,3 +11,12 @@
 header{
     margin-bottom: calc(var(--spacing) * 2);
 }
+
+figure{
+    margin-bottom: calc(var(--spacing) * 2);
+    width: 80vw;
+    padding: 5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
