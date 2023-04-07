@@ -9,10 +9,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px min-content 1fr min-content;
+    min-height: 100vh;
 }
 
 header{
-    background-color: hotpink;
+    background-color: rgb(223, 166, 194);
 }
 
 h1{
@@ -20,11 +23,11 @@ h1{
 }
 
 aside{
-    background-color: orangered;
+    background-color: rgb(200, 119, 90);
 }
 
 footer{
-    background-color: forestgreen;
+    background-color: rgb(99, 124, 99);
 }
 
 .inset{
