@@ -1,13 +1,8 @@
-<!-- <svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="400" cy="400" r="200" fill="red" />
-  </svg> -->
 
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 447.25 447.25">
     <circle class="a" cx="223" cy="223" r="223" fill="red"/>
-    <circle cx="0" cy="220" r="50%" fill="blue" />
-    <rect x="200" y="220" width="30" height="250" fill="red" />
-
-  <!-- <circle cx="0" cy="13" r="50%" fill="blue"/> -->
+    <path d="M0,224 a1,1 0 0,0 447,0" x="0" y="200" fill="blue" />
+        <rect x="200" y="220" width="245" height="30" fill="red" />
 
   </svg>
 
