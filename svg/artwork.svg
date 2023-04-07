@@ -2,7 +2,7 @@
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 447.25 447.25">
     <circle class="a" cx="223" cy="223" r="223" fill="red"/>
     <path d="M0,224 a1,1 0 0,0 447,0" x="0" y="200" fill="blue" />
-        <rect x="200" y="220" width="245" height="30" fill="red" />
+        <rect x="205" y="223" width="240" height="30" fill="red" />
 
   </svg>
 
