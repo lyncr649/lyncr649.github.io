@@ -24,6 +24,7 @@ h1{
 
 aside{
     background-color: rgb(200, 119, 90);
+    position: sticky;
 }
 
 footer{
@@ -32,4 +33,19 @@ footer{
 
 .inset{
     padding: var(--spacing);
+}
+
+#word-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: calc(var(--spacing)) * 2;
+}
+
+#word-list li{
+    background-color: blue;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
