@@ -5,6 +5,7 @@
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 447.25 447.25">
   <circle class="a" cx="223" cy="223" r="223" fill="red"/>
   <g transform="translate(243,223) rotate(5)">
-      <circle cx="0" cy="223" r="50%" fill="blue"/>
+  <circle cx="0" cy="13" r="50%" fill="blue"/>
+    <rect x="0" y="0" width="100" height="100" fill="blue" />
 </g>
   </svg>
