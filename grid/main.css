@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Noto+Sans+JP:wght@300&display=swap');
+
 :root{
     --spacing: 20px;
 }
@@ -20,21 +22,31 @@ body{
 }
 
 header{
-    background-color: rgb(223, 166, 194);
+    background-color: rgb(238, 214, 226);
     grid-area: header;
+    background-image: linear-gradient(to bottom right, rgb(162, 211, 241), rgb(205, 170, 225));
+    position: sticky;
+    top: 0;
 }
 
 h1{
-    font-size: 200%;
+    font-size: 250%;
+    text-align: center;
+    font-family: 'Nabla', cursive;
+    padding: 1vw;
 }
 
 aside{
-    background-color: rgb(200, 119, 90);
+    background-color: rgb(205, 170, 225);
     grid-area: aside;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 main{
     grid-area: main;
+    font-family: 'Noto Sans JP', sans-serif;
+    
 }
 
 footer{
@@ -42,6 +54,8 @@ footer{
     position: sticky;
     bottom: 0;
     grid-area: footer;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
 }
 
 
@@ -52,13 +66,16 @@ footer{
 #word-list{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: calc(var(--spacing)) * 2;
+    row-gap: 5vw;
+    column-gap: 3vw;
+    padding: 5%;
 }
 
 #word-list li{
-    background-color: rgb(183, 216, 248);
+    background-color: rgb(162, 211, 241);
+    font-size: 150%;
     aspect-ratio: 1;
-    border-radius: 50%;
+    border-radius: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
