@@ -50,12 +50,14 @@ main{
 }
 
 footer{
-    background-color: rgb(99, 124, 99);
+    /* background-color: rgb(99, 124, 99); */
+    color: #FF682A;
     position: sticky;
     bottom: 0;
     grid-area: footer;
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
+    background-color: #FED82A;
 }
 
 
