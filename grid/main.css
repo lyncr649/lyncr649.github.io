@@ -42,13 +42,14 @@ h1{
 
 aside{
     background-color: rgb(205, 170, 225);
-    grid-area: aside;
     text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
     padding: 10px;
     border-bottom: 2px solid rgb(12, 19, 61);
     text-align: center;
     display: block;
+    position: sticky;
+    top: 150px;
 }
 
 
@@ -101,15 +102,14 @@ footer{
 
 
 @media screen and (max-width: 1200px){
-    body{
-        grid-template-columns: 3fr;
-        grid-template-rows: 150px min-content 3fr min-content;
+    aside{
+        grid-area: aside;
     }
   }
 
 @media screen and (max-width: 600px){
     body{
-        grid-template-columns: 2fr;
-        grid-template-rows: 150px min-content 2fr min-content;
+        grid-template-columns: 3fr;
+        grid-template-rows: 150px min-content 1fr min-content;
     }
   }
