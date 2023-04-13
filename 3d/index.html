@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>3d bear</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </head>
+  <body>
+    <!-- <model-viewer src="https://cdn.glitch.global/248959da-e72f-4a04-a8f1-eb11ec11fe53/bear.glb?v=1681190596360" camera-orbit="-189.6deg 83.37deg 3.561m" camera-controls auto-rotate rotation-per-second="30deg" interaction-prompt-threshold=500 interaction-prompt-style="basic" disable-zoom>
+      <div class="interaction-prompt" slot="interaction-prompt">🧸</div> 
+         <button class="Hotspot" slot="hotspot-1" data-surface="3 0 60 64 62 0.142 0.080 0.778" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">party</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-surface="4 0 229 230 228 0.116 0.069 0.815" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">guy</div>
+    </button>
+    </model-viewer> -->
+  
+
+    <model-viewer src="SpecGlossVsMetalRough.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+        <div id="ar-prompt">
+            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+        </div>
+    </model-viewer>
+
+    
+  </body>
+</html>
