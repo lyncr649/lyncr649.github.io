@@ -8,6 +8,10 @@
 
 }
 
+html{
+    display: block;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
@@ -41,7 +45,13 @@ aside{
     grid-area: aside;
     text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
+    padding: 10px;
+    border-bottom: 2px solid rgb(12, 19, 61);
+    text-align: center;
+    letter-spacing: 2px;
+    display: block;
 }
+
 
 main{
     grid-area: main;
@@ -49,6 +59,13 @@ main{
     
 }
 
+a{
+    color: whitesmoke;
+}
+
+a:hover{
+    color: rgb(6, 5, 91);
+}
 footer{
     /* background-color: rgb(99, 124, 99); */
     color: #FF682A;
