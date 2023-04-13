@@ -20,6 +20,8 @@
     <!-- The website stylesheet -->
     <link rel="stylesheet" href="/style.css" />
 
+    <script src="<https://aframe.io/releases/1.4.0/aframe.min.js>"></script>
+
     <!-- The website JavaScript file -->
    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   </head>
@@ -32,9 +34,8 @@
         <div class="HotspotAnnotation">guy</div>
     </button>
     </model-viewer> -->
-  
 
-    <model-viewer src="SpecGlossVsMetalRough.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+    <model-viewer src="untitled.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
         <div class="progress-bar hide" slot="progress-bar">
             <div class="update-bar"></div>
         </div>
@@ -46,6 +47,11 @@
         </div>
     </model-viewer>
 
-    
+    <a-entity id="box" geometry="primitive: box" material="color: red"></a-entity>
+    <a-box color="red" position="0 2 -5" rotation="0 45 45" scale="2 2 2"></a-box>
+
+    <!-- <model-viewer src="https://cdn.glitch.me/6464b8c7-572e-474a-8e7f-1590f01f0acd/little-bear_2.gltf?v=1677702809000"></model-viewer> -->
+
+
   </body>
 </html>

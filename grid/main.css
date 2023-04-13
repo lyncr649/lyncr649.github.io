@@ -82,3 +82,18 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+
+@media screen and (max-width: 1200px){
+    body{
+        grid-template-columns: 3fr;
+        grid-template-rows: 150px min-content 3fr min-content;
+    }
+  }
+
+@media screen and (max-width: 600px){
+    body{
+        grid-template-columns: 2fr;
+        grid-template-rows: 150px min-content 2fr min-content;
+    }
+  }
