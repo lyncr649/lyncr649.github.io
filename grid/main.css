@@ -11,8 +11,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 150px min-content 1fr min-content;
+    grid-template-columns: 2fr;
+    grid-template-rows: 150px min-content 2fr min-content;
     min-height: 100vh;
     grid-template-areas: 
         "header"
@@ -76,8 +76,8 @@ footer{
 #word-list li{
     background-color: rgb(162, 211, 241);
     font-size: 150%;
-    aspect-ratio: 1;
-    border-radius: 20%;
+    aspect-ratio: 3;
+    /* border-radius: 20%; */
     display: flex;
     justify-content: center;
     align-items: center;
