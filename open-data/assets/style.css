@@ -8,6 +8,17 @@ body {
 	font-family: sans-serif;
 	padding: var(--spacing);
 	padding-bottom: 33vh;
+    background-color: #15181C;
+    color: gainsboro;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(255, 247, 215);
+    padding: 5vw;
+    border: 2vw solid black;
+    color: black;
+    text-decoration: underline solid black 1px;
 }
 
 aside { margin-bottom: calc(4 * var(--spacing)); }

@@ -23,17 +23,18 @@ const renderItems = (collection) => {
 		const itemDetails =
 			`
 				<p>Released in <time>${item.year}</time></p>
-				<p><em>${item.runTime}</em></p>
+                <p>${item.director}</p>
+				<p><em>${item.location}</em></p>
 				<a href="${item.imdbLink}">
-					<p>${item.imdbRating} / 10 →</p>
+					<p>${item.imdbLink}→</p>
 				</a>
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
-		// You can build logic from your data, too
-		if (!item.alsoWriter) { // If this is `false`
-			listItem.classList.add('faded') // Add this class to the whole `li`
-		}
+		// // You can build logic from your data, too
+		// if (!item.alsoWriter) { // If this is `false`
+		// 	listItem.classList.add('faded') // Add this class to the whole `li`
+		// }
 
 		collectionList.appendChild(listItem) // Then add the whole `li` into the `ul`
 	})
