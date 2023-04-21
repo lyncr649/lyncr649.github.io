@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
 	--spacing: 1em;
 }
@@ -10,6 +12,7 @@ body {
 	padding-bottom: 33vh;
     background-color: #15181C;
     color: gainsboro;
+    
 }
 
 header{
@@ -19,6 +22,7 @@ header{
     border: 2vw solid black;
     color: black;
     text-decoration: underline solid black 1px;
+    font-family: 'Roboto', sans-serif;
 }
 
 aside { margin-bottom: calc(4 * var(--spacing)); }
@@ -37,6 +41,10 @@ ul {
 	margin-top: calc(4 * var(--spacing));
 }
 
+main{
+    padding: calc(4 * var(--spacing));
+}
+
 li {
 	display: grid;
 	gap: var(--spacing);
@@ -45,6 +53,6 @@ li {
 .faded { opacity: 0.333 }
 
 img{
-    max-width: 100%;
+    max-width: 25vw;
     height: auto;
 }
