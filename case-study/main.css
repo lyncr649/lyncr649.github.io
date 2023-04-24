@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 255, 219);
+    color: rgb(42, 42, 42);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 300%;
+}
+
+header{
+    text-align: center;
+    padding: 2vw;
+}
