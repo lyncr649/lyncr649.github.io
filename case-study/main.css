@@ -1,7 +1,16 @@
+/* Just to make the demo easier to work with. */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;400;600&display=swap');
+@font-face {
+    font-family: Kaeru Kaeru ;
+    src:url(kaerukaeru-Regular.woff);
+	src:url(kaerukaeru-Regular.woff2);
+}
+
 body{
     background-color: rgb(255, 255, 219);
     color: rgb(42, 42, 42);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
 }
 
 h1{
@@ -11,4 +20,32 @@ h1{
 header{
     text-align: center;
     padding: 2vw;
+}
+
+main{
+    font-size: 150%;
+}
+
+.im1{
+    align-content: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 20%;
+
+}
+
+.kaeru{
+    font-family: Kaeru Kaeru ;
+    font-size: 300%;
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding: 2vw;
+    grid-column-gap: 2vw;
+}
+
+@media screen {
+    
 }
