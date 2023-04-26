@@ -34,6 +34,12 @@ main{
     padding-bottom: 3vw;
 }
 
+video{
+    padding: 5vw;
+    align-content: center;
+    justify-content: center;
+}
+
 .kaeru{
     font-family: Kaeru Kaeru ;
     font-size: 300%;
@@ -45,6 +51,11 @@ main{
     padding: 2vw;
     grid-column-gap: 2vw;
 } */
+
+p{
+    text-align: center;
+    padding: 2vw;
+}
 
 @media screen {
     
