@@ -49,3 +49,22 @@ fetch('assets/collection.json')
 		// And passes the data to the function, above!
 		renderItems(collection.reverse()) // In reverse order
 	})
+
+
+
+	// wrapCarousel({
+	// 	container: '#collection',
+	// 	dataFileURI: './collection.json',
+	// 	imgsDirURI: 'poster'
+	//   });
+
+	//   let spaceBetweenSlides = 15,
+    // containerPadding = 16,
+    // startSlideOutDuration = 1, //seconds
+    // transitionDuration = .4, //seconds
+    // pauseDuration = 3, //seconds
+    // onloadHoldDuration = 1.5, //seconds
+    // interruptAutoInt = true,
+    // slideHeight = 250,
+    // onSlideWidth = 340,
+    // onSlideHeight = 300

@@ -55,9 +55,7 @@ li {
 
 ul {
 	display: grid;
-    grid-template-columns: repeat(auto-fit);
-	gap: calc(4 * var(--spacing));
-	margin-top: calc(4 * var(--spacing));
+    grid-template-columns: 5fr 5fr 5fr;
 }
 
 li {
