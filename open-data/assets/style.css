@@ -39,6 +39,20 @@ main{
     padding: calc(4 * var(--spacing));
 }
 
+/* ul {
+	display: grid;
+    grid-template-columns: repeat(auto-fit);
+	gap: calc(4 * var(--spacing));
+	margin-top: calc(4 * var(--spacing));
+}
+
+li {
+	display: grid;
+	gap: var(--spacing);
+    grid-template-columns: repeat(auto-fit);
+
+} */
+
 ul {
 	display: grid;
     grid-template-columns: repeat(auto-fit);
