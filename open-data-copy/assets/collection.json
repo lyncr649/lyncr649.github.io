@@ -1,0 +1,445 @@
+[
+	{
+		"title": "A Perfect Murder",
+		"year": 1998,
+		"location" : "Long Island City",
+        "director" : "Andrew Davis",
+		"posterImage": "https://cdn.shopify.com/s/files/1/1416/8662/products/A_Perfect_Murder_1998_original_film_art_600x.jpg",
+		"borough": "Queens",
+		"imdbLink": "http://www.imdb.com/title/tt0120787/"
+	},
+    {
+		"title": "Across the Sea of Time",
+		"year": 1997,
+		"location" : "New York Harbor",
+        "director" : "Stephen Low",
+		"posterImage": "https://www.tvguide.com/a/img/catalog/provider/1/3/1-172674931.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://imdb.com/title/tt0112286/"
+	},
+    {
+		"title": "Alice",
+		"year": 1990,
+		"location" : "E. 95th St. off Madison Ave.",
+        "director" : "Woody Allen",
+		"posterImage": "https://cdn.shopify.com/s/files/1/1416/8662/products/alice_1990_original_film_art_600x.webp?v=1656542714",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0099012/"
+	},
+    {
+		"title": "As Good As It Gets",
+		"year": 1997,
+		"location" : "Sixth Ave. between 11th St. and 12th St.",
+        "director" : "James L. Brooks",
+		"posterImage": "https://image.tmdb.org/t/p/original/ePR1Nyf7jKsl1lUhRjvHKCbGsOJ.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://imdb.com/title/tt0119822/"
+	},
+    {
+		"title": "Basquiat",
+		"year": 1996,
+		"location" : "Lower East Side",
+        "director" : "Julian Schnabel",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BMTk3NTk3MzU5N15BMl5BanBnXkFtZTgwNjIwMDcyMTI@._V1_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0115632/"
+	},
+    {
+		"title": "Bed of Roses",
+		"year": 1996,
+		"location" : "Chelsea",
+        "director" : "Michael Goldenberg",
+		"posterImage": "https://i.ebayimg.com/images/g/aSoAAOSwc8thm~JL/s-l1600.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0115644/"
+	},
+    {
+		"title": "Blue in the Face",
+		"year": 1995,
+		"location" : "Prospect Park West and 16th St.",
+        "director" : "Paul Auster, Wayne Wang",
+		"posterImage": "https://pics.filmaffinity.com/Blue_in_the_Face-615364823-large.jpg",
+		"borough": "Brooklyn",
+		"imdbLink": "http://www.imdb.com/title/tt0112541/"
+	},
+    {
+		"title": "Chasing Amy",
+		"year": 1997,
+		"location" : "269 E. Houston St.",
+        "director" : "Kevin Smith",
+		"posterImage": "https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/chasing-amy-1997/EB19970418REVIEWS704180302AR.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0118842/"
+	},
+    {
+		"title": "Clockers",
+		"year": 1995,
+		"location" : "Gowanus Houses",
+        "director" : "Spike Lee",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BY2JmNTUyYWQtMTZhMy00YTE4LTllNGItMDZmNTBiZTkyNjE2XkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_.jpg",
+		"borough": "Brooklyn",
+		"imdbLink": "http://www.imdb.com/title/tt0112688/"
+	},
+    {
+		"title": "Crooklyn",
+		"year": 1994,
+		"location" : "Stuyvesant Ave. and Macon St.",
+        "director" : "Spike Lee",
+		"posterImage": "https",
+		"borough": "Brooklyn",
+		"imdbLink": "http://www.imdb.com/title/tt0109504/"
+	},
+    {
+		"title": "Die Hard: With a Vengeance",
+		"year": 1995,
+		"location" : "Central Park South",
+        "director" : "John McTiernan",
+		"posterImage": "https://i.redd.it/die-hard-with-a-vengeance-1995-3rd-die-hard-film-bruce-v0-ovu3cvn2kpsa1.jpg?width=700&format=pjpg&auto=webp&s=73ad65e4c574f940dc8d6e79816a9f9c050463ff",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0112864/"
+	},
+    {
+		"title": "Goodfellas",
+		"year": 1990,
+		"location" : "24-13 32nd St.",
+        "director" : "Martin Scorsese",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+		"borough": "Queens",
+		"imdbLink": "http://imdb.com/title/tt0099685/"
+	},
+    {
+		"title": "Green Card",
+		"year": 1990,
+		"location" : "W. 76th St",
+        "director" : "Peter Weir",
+		"posterImage": "https://m.media-amazon.com/images/I/41yMwGaIWUL._AC_UF894,1000_QL80_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0120787/"
+	},
+    {
+		"title": "Hudson Hawk",
+		"year": 1991,
+		"location" : "Brooklyn Bridge",
+        "director" : "Michael Lehmann",
+		"posterImage": "https://m.media-amazon.com/images/I/A1Y+vMB5uuL._AC_UF894,1000_QL80_.jpg",
+		"borough": "Brooklyn",
+		"imdbLink": "http://www.imdb.com/title/tt0102070/"
+	},
+    {
+		"title": "I Like It Like That",
+		"year": 1994,
+		"location" : "170th St. in Morrisania",
+        "director" : "Darnell Martin",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BYmE2ZDc1MTctODhjNy00OWQyLTg2ZGMtNGUzMTgxNWIzMWNjXkEyXkFqcGdeQXVyNjMwMjk0MTQ@._V1_.jpg",
+		"borough": "The Bronx",
+		"imdbLink": "http://www.imdb.com/title/tt0110091/"
+	},
+    {
+		"title": "I Shot Andy Warhol",
+		"year": 1996,
+		"location" : "W. 20th St.",
+        "director" : "Mary Harron",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BMTc4NzUwMzMwNF5BMl5BanBnXkFtZTYwNzEyMjA5._V1_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0116594/"
+	},
+    {
+		"title": "It Could Happen to You",
+		"year": 1994,
+		"location" : "W. Broadway and N. Moore St.",
+        "director" : "Andrew Bergman",
+		"posterImage": "https://movieguide.b-cdn.net/wp-content/uploads/2012/08/it_could_happen_to_you.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0110167/"
+	},
+    {
+		"title": "Jumpin' at the Boneyard",
+		"year": 1992,
+		"location" : "Burned-out blocks in the Bronx",
+        "director" : "Jeff Stanzler",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BMmFkNWRlZGEtYjljOC00MmU0LTk2NDEtODgxMjAwNjhiNDExXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg",
+		"borough": "The Bronx",
+		"imdbLink": "http://imdb.com/title/tt0102174/"
+	},
+    {
+		"title": "Jungle Fever",
+		"year": 1991,
+		"location" : "Bensonhurst ",
+        "director" : "Spike Lee",
+		"posterImage": "https://m.media-amazon.com/images/I/91+RLJmCCIL._AC_UF894,1000_QL80_.jpg",
+		"borough": "Brooklyn",
+		"imdbLink": "http://www.imdb.com/title/tt0102175/"
+	},
+    {
+		"title": "Kids",
+		"year": 1995,
+		"location" : "Washington Square Park",
+        "director" : "Larry Clark",
+		"posterImage": "https://static.tvtropes.org/pmwiki/pub/images/kids_00.png",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0113540/"
+	},
+    {
+		"title": "Malcolm X",
+		"year": 1992,
+		"location" : "Adjacent to Apollo Theater",
+        "director" : "Spike Lee",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BZDkzOTFmMTUtMmI2OS00MDE4LTg5YTUtODMwNDMzNmI5OGYwL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0104797/"
+	},
+    {
+		"title": "Men In Black",
+		"year": 1997,
+		"location" : "Battery Park, MacDougal St., Grand Central Station, Guggenheim Museum",
+        "director" : "Barry Sonnenfeld",
+		"posterImage": "https://upload.wikimedia.org/wikipedia/en/f/fb/Men_in_Black_Poster.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0119654/"
+	},
+    {
+		"title": "Mo' Better Blues",
+		"year": 1990,
+		"location" : "Brooklyn Bridge",
+        "director" : "Spike Lee",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BYmMwY2ZhZjctZTg1Ny00NjNjLThkOTQtZGY2NzA1ODBjMzA3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+		"borough": "Brooklyn",
+		"imdbLink": "http://www.imdb.com/title/tt0100168/"
+	},
+    {
+		"title": "My Dinner with André",
+		"year": 1991,
+		"location" : "Subway",
+        "director" : "Louis Malle",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BYWZlMTk2MTYtYTlhMC00MjRiLWJlYzYtMWEzODY0NzFjYjFlXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://imdb.com/title/tt0082783/"
+	},
+    {
+		"title": "New Jack City",
+		"year": 1991,
+		"location" : "Grant's Tomb",
+        "director" : "Mario Van Peebles",
+		"posterImage": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/830d51a65b5e81802c6da2044c8c988c_78843ff2-f222-4e1f-a703-3e3fb2539fd7_grande.jpg?v=1573617239",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0102526/"
+	},
+    {
+		"title": "One Fine Day",
+		"year": 1996,
+		"location" : "Carnegie Deli, Seventh Ave. and W. 55th St., Central Park",
+        "director" : "Michael Hoffman",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BZjlkODI1ZDYtOTAwMy00ZTMxLThhMzgtMmE4MzFiNzQyYmRmXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_FMjpg_UX1000_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0117247/"
+	},
+    {
+		"title": "Other Peoples Money",
+		"year": 1991,
+		"location" : "World Trade Center",
+        "director" : "Norman Jewison",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BNjkzZDg4MDctYWRlNS00OTJkLTgyM2EtOGViYjFiZjc4MjQwXkEyXkFqcGdeQXVyMTQ3Njg3MQ@@._V1_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://imdb.com/title/tt0102609/"
+	},
+    {
+		"title": "Searching for Bobby Fischer",
+		"year": 1993,
+		"location" : "Washington Square Park",
+        "director" : "Steven Zaillian",
+		"posterImage": "https://m.media-amazon.com/images/I/51PF369WY6L._AC_UF894,1000_QL80_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0108065/"
+	},
+    {
+		"title": "Sex and the City",
+		"year": "1998-2004",
+		"location" : "West Village",
+        "director" : "Darren Star, (more)",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BNGEyNDRjM2QtY2VlYy00OWRhLWI4N2UtZTM4NDc0MGM0YzBkXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0159206/"
+	},
+    {
+		"title": "Shes the One",
+		"year": 1996,
+		"location" : "McHales Pub",
+        "director" : "Edward Burns",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BNTI0NTcyODE4MF5BMl5BanBnXkFtZTYwNTU1Nzk4._V1_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0117628/"
+	},
+    {
+		"title": "Single White Female",
+		"year": 1992,
+		"location" : "Ansonia Hotel",
+        "director" : "Barbet Schroeder",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BYjNmMTNjYzEtNGIzOC00ZDc2LWFjN2UtZTNmZjgxZDJkNzBlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0105414/"
+	},
+    {
+		"title": "Six Degrees of Separation",
+		"year": 1993,
+		"location" : "Central Park",
+        "director" : "Fred Schepisi",
+		"posterImage": "https://m.media-amazon.com/images/I/81tTUfPHTOL._AC_UF894,1000_QL80_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0108149/"
+	},
+    {
+		"title": "Sleepers",
+		"year": 1996,
+		"location" : "W. 47th St. near Pier 87",
+        "director" : "Barry Levinson",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BMzk1MmI4NzAtOGRiNS00YjY1LTllNmEtZDhiZDM4MjU2NTMxXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_FMjpg_UX1000_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0117665/"
+	},
+    {
+		"title": "Smoke",
+		"year": 1995,
+		"location" : "Prospect Park and 16th St.",
+        "director" : "Wayne Wang",
+		"posterImage": "https://s3.amazonaws.com/static.rogerebert.com/uploads/movie/movie_poster/smoke-1995/large_1lVMPYZxFBhAjZsaoGqgFyJ2POh.jpg",
+		"borough": "Brooklyn",
+		"imdbLink": "http://www.imdb.com/title/tt0114478/"
+	},
+    {
+		"title": "State of Grace",
+		"year": 1990,
+		"location" : "Hell's Kitchen",
+        "director" : "Phil Joanou",
+		"posterImage": "https://image.tmdb.org/t/p/original/6T5JarIyWgPMFOP0eCoCab2IBMc.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://imdb.com/title/tt0100685/"
+	},
+    {
+		"title": "Sugar Hill",
+		"year": 1994,
+		"location" : "Edgecomb Ave. ",
+        "director" : "Leon Ichaso",
+		"posterImage": "https://upload.wikimedia.org/wikipedia/en/9/9d/Sugar_hill_1994_movie_poster.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0107079/"
+	},
+    {
+		"title": "A Perfect Murder",
+		"year": 1998,
+		"location" : "Long Island City",
+        "director" : "Andrew Davis",
+		"posterImage": "https",
+		"borough": "Queens",
+		"imdbLink": "http://www.imdb.com/title/tt0120787/"
+	},
+    {
+		"title": "Summer of Sam",
+		"year": 1999,
+		"location" : "CBGB's ",
+        "director" : "Spike Lee",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BNjdjMDQ4ZjctYmQzNS00NjYwLWFhNTQtMGM0YmJjMmE5YmE3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0162677/"
+	},
+    {
+		"title": "The Basketball Diaries",
+		"year": 1995,
+		"location" : "Forest Hills",
+        "director" : "Scott Kalvert",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BMjdlNzQxZGUtZTg5YS00ODg2LTkxMzctMDAyNmEwM2YyZjA4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+		"borough": "Queens",
+		"imdbLink": "http://imdb.com/title/tt0112461/"
+	},
+    {
+		"title": "The Bondfire of the Vanities",
+		"year": 1990,
+		"location" : "E. 74th St and Park Ave.",
+        "director" : "Brian De Palma",
+		"posterImage": "https://img.moviepostershop.com/bonfire-of-the-vanities-movie-poster-1991-1020233660.jpg",
+		"borough": "Queens",
+		"imdbLink": "http://www.imdb.com/title/tt0099165/"
+	},
+    {
+		"title": "The Brothers McMullen",
+		"year": 1995,
+		"location" : "W. 46th St. and Eighth Ave.",
+        "director" : "Edward Burns",
+		"posterImage": "https",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0112585/"
+	},
+    {
+		"title": "The Cowboy Way",
+		"year": 1994,
+		"location" : "Manhattan Bridge",
+        "director" : "Gregg Champion",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BN2RhMTExNmQtYWY0OC00OWE5LThlODEtZDBhMTBiZDFiMDIzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0109493/"
+	},
+    {
+		"title": "The Devils Advocate",
+		"year": 1997,
+		"location" : "Chinatown",
+        "director" : "Taylor Hackford",
+		"posterImage": "https://m.media-amazon.com/images/M/MV5BM2M2MDJhMDgtMmJkYy00MTgzLTkyZTktODM5NzE1MWUyNDA4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0118971/"
+	},
+    {
+		"title": "The Fisher King",
+		"year": 1991,
+		"location" : "Grand Central Station",
+        "director" : "Terry Gilliam",
+		"posterImage": "https://m.media-amazon.com/images/I/51EXDGFHD8L._AC_UF1000,1000_QL80_.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0101889/"
+	},
+    {
+		"title": "The Pickle",
+		"year": 1993,
+		"location" : "Brighton Beach Boardwalk",
+        "director" : "Paul Mazursky",
+		"posterImage": "https://i5.walmartimages.com/asr/ff9d2dbd-4be3-41a6-be4c-17b0170a98ea_1.d65ebe2669901b93b70d81d41e18776e.jpeg",
+		"borough": "Brooklyn",
+		"imdbLink": "http://www.imdb.com/title/tt0107824/"
+	},
+    {
+		"title": "The Professional",
+		"year": 1994,
+		"location" : "Midtown",
+        "director" : "Luc Besson",
+		"posterImage": "https://m.media-amazon.com/images/I/61P-HNp5QsL.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://imdb.com/title/tt0110413/"
+	},
+    {
+		"title": "The Siege",
+		"year": 1998,
+		"location" : "Greenpoint",
+        "director" : "Edward Zwick",
+		"posterImage": "https://images.moviesanywhere.com/19360e74da227a9f32a303580f577095/d40c3ef6-4551-4217-bec2-2be3b636ee39.jpg",
+		"borough": "Brooklyn",
+		"imdbLink": "http://www.imdb.com/title/tt0133952/"
+	},
+    {
+		"title": "The Sopranos",
+		"year": "1999-2007",
+		"location" : "Brooklyn Bridge",
+        "director" : "David Chase, (more)",
+		"posterImage": "https://www.tvguide.com/a/img/catalog/provider/1/1/1-1487303638.jpg",
+		"borough": "Brooklyn",
+		"imdbLink": "http://www.imdb.com/title/tt0141842/"
+	},
+    {
+		"title": "You've Got Mail",
+		"year": 1998,
+		"location" : "Vzerdi Square, W. 73rd St.",
+        "director" : "Nora Ephron",
+		"posterImage": "https://media1.fdncms.com/ntslo/imager/u/original/9057794/musicartsculture_movies2-1-8da1e2628dbf7c59.jpg",
+		"borough": "Manhattan",
+		"imdbLink": "http://www.imdb.com/title/tt0128853/"
+	}
+
+]
+
