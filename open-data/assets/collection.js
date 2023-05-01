@@ -116,3 +116,14 @@ fetch('assets/collection.json')
 		// And passes the data to the function, above!
 		renderItems(collection.reverse()) // In reverse order
 	})
+
+
+	function scrollContainer(direction) {
+        const container = document.getElementById("collection");
+        const scrollDistance = container.offsetWidth;
+        const scrollOffset = container.scrollLeft + (direction === "left" ? -scrollDistance : scrollDistance);
+        container.scrollTo({
+          left: scrollOffset,
+          behavior: "smooth"
+        });
+      }
