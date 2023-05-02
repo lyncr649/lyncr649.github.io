@@ -127,3 +127,25 @@ fetch('assets/collection.json')
           behavior: "smooth"
         });
       }
+
+	  function sortData() {
+		var selectValue = document.getElementById("select-menu").value;
+  // Sort the JSON data based on the selected value
+  if (selectValue === "year") {
+    jsonData.sort(function(a, b) {
+      return a.year - b.year;
+    });
+  } else if (selectValue === "borough") {
+    jsonData.sort(function(a, b) {
+      return a.borough.localeCompare(b.borough);
+    });
+  }
+
+  // Display the sorted data in a table or list
+  // For example:
+  var output = document.getElementById("output");
+  output.innerHTML = "";
+  for (var i = 0; i < jsonData.length; i++) {
+    output.innerHTML += "<li>" + jsonData[i].title + " (" + jsonData[i].year + ") - " + jsonData[i].borough + "</li>";
+  }
+}

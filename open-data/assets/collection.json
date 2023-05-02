@@ -4,7 +4,7 @@
 		"year": 1998,
 		"location" : "Long Island City",
         "director" : "Andrew Davis",
-		"posterImage": "aperfectmurder.jpeg",
+		"posterImage": "./assets./posters./aperfectmurder.jpeg",
 		"borough": "Queens",
 		"imdbLink": "http://www.imdb.com/title/tt0120787/"
 	},

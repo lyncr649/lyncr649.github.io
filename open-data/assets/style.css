@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
 
 :root {
 	--spacing: 1em;
@@ -21,8 +22,8 @@ header{
     padding: 5vw;
     border: 2vw solid black;
     color: black;
-    text-decoration: underline solid black 1px;
-    font-family: 'Roboto', sans-serif;
+    text-decoration: underline solid black 2px;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 aside { margin-bottom: calc(4 * var(--spacing)); }
@@ -102,6 +103,12 @@ select {
 
 .arrows{
   text-align: center;
-  background-color: blue;
+  background-color: rgb(128, 1, 1);
   font-size: 300%;
+}
+
+.data{
+  position: sticky;
+  top: 5vw;
+
 }
