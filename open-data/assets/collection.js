@@ -53,23 +53,8 @@ fetch('assets/collection.json')
 
 
 
-	// wrapCarousel({
-	// 	container: '#collection',
-	// 	dataFileURI: './collection.json',
-	// 	imgsDirURI: 'poster'
-	//   });
 
-	//   let spaceBetweenSlides = 15,
-    // containerPadding = 16,
-    // startSlideOutDuration = 1, seconds
-    // transitionDuration = .4, seconds
-    // pauseDuration = 3, seconds
-    // onloadHoldDuration = 1.5, seconds
-    // interruptAutoInt = true,
-    // slideHeight = 250,
-    // onSlideWidth = 340,
-    // onSlideHeight = 300
-
+	
  // Fetch the JSON data
  fetch('data.json')
  .then(response => response.json())
