@@ -52,57 +52,7 @@ fetch('assets/collection.json')
 	})
 
 
-
-
-	
- // Fetch the JSON data
- fetch('data.json')
- .then(response => response.json())
- .then(data => {
-   // Sort the data by year
-   data.sort((a, b) => a.year - b.year);
-
-   // Display the sorted data in HTML
-   let output = '';
-   data.forEach(item => {
-	 output += `<div>${item.name} - ${item.year}</div>`;
-   });
-   document.getElementById('output').innerHTML = output;
- });
-
-
-
-
-
-
- let localData = [] // Set up an empty object for our local data (`let` because it will change)
-
-
-dropdown.oninput = () => {
-	// Filter the locally-copied data
-	const year = localData.filter(movie => movie.year == 'F')
-	const borough = localData.filter(movie => movie.borough == 'M')
-
-	// Parse either set depending on the dropdown value
-	if (dropdown.value == 'year') renderItems(year)
-	else if (dropdown.value == 'borough') renderItems(borough)
-	else renderItems(localData) // Send the whole, unfiltered dataset
-
-	console.log('F' + title + year + director)
-}
-
-
-// Fetch gets your JSON file…
-fetch('assets/collection.json')
-	.then(response => response.json())
-	.then(collection => {
-		localData = collection
-		parseData(localData)
-		// And passes the data to the function, above!
-		renderItems(collection.reverse()) // In reverse order
-	})
-
-
+	// scroll feature here:
 	function scrollContainer(direction) {
         const container = document.getElementById("collection");
         const scrollDistance = container.offsetWidth;
@@ -113,24 +63,61 @@ fetch('assets/collection.json')
         });
       }
 
-	  function sortData() {
-		var selectValue = document.getElementById("select-menu").value;
-  // Sort the JSON data based on the selected value
-  if (selectValue === "year") {
-    jsonData.sort(function(a, b) {
-      return a.year - b.year;
-    });
-  } else if (selectValue === "borough") {
-    jsonData.sort(function(a, b) {
-      return a.borough.localeCompare(b.borough);
-    });
-  }
 
-  // Display the sorted data in a table or list
-  // For example:
-  var output = document.getElementById("output");
-  output.innerHTML = "";
-  for (var i = 0; i < jsonData.length; i++) {
-    output.innerHTML += "<li>" + jsonData[i].title + " (" + jsonData[i].year + ") - " + jsonData[i].borough + "</li>";
-  }
-}
+
+
+// 	  function filterByBorough(borough) {
+// 		return data.filter(movie => {
+// 		  if (borough === "") {
+// 			return true; // show all movies
+// 		  } else {
+// 			return movie.borough === borough;
+// 		  }
+// 		});
+// 	  }
+
+// 	  const select = document.getElementById("borough-select");
+
+// select.addEventListener("change", (event) => {
+//   const filteredData = filterByBorough(event.target.value);
+//   // update the displayed movies with filteredData
+// });
+
+// function displayMovies(movies) {
+// 	// clear previous movies
+// 	// ...
+  
+// 	movies.forEach(movie => {
+// 	  // create HTML element for each movie
+// 	  // ...
+// 	});
+//   }
+  
+//   // call displayMovies initially with all movies
+//   displayMovies(data);
+
+//   function filterByBorough(borough) {
+// 	return data.filter(movie => {
+// 	  if (borough === "") {
+// 		return true; // show all movies
+// 	  } else {
+// 		return movie.borough === borough;
+// 	  }
+// 	});
+//   }
+  
+//   function displayMovies(movies) {
+// 	// clear previous movies
+// 	// ...
+  
+// 	movies.forEach(movie => {
+// 	  // create HTML element for each movie
+// 	  // ...
+// 	});
+//   }
+  
+//   const select = document.getElementById("borough-select");
+  
+//   select.addEventListener("change", (event) => {
+// 	const filteredData = filterByBorough(event.target.value);
+// 	displayMovies(filteredData

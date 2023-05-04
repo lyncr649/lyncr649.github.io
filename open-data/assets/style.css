@@ -79,8 +79,8 @@ li {
 .faded { opacity: 0.333 }
 
 img{
-  width: 20vw;
-  height: auto;
+  height: 30vw;
+  width: auto;
   box-shadow: 1px 1px 10px #999;
 }
 
@@ -105,10 +105,4 @@ select {
   text-align: center;
   background-color: rgb(128, 1, 1);
   font-size: 300%;
-}
-
-.data{
-  position: sticky;
-  top: 5vw;
-
 }
