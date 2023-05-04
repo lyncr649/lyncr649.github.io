@@ -28,7 +28,7 @@ const renderItems = (collection) => {
                 <p>${item.director}</p>
 				<p><em>${item.location}</em></p>
 				<a href="${item.imdbLink}">
-					<p>${item.imdbLink}→</p>
+					<p>${item.borough}→</p>
 				</a>
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert

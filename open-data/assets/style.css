@@ -80,7 +80,7 @@ li {
 
 img{
   height: 30vw;
-  width: auto;
+  min-width: 20vw;
   box-shadow: 1px 1px 10px #999;
 }
 
