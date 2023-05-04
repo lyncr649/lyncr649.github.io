@@ -106,3 +106,11 @@ select {
   background-color: rgb(128, 1, 1);
   font-size: 300%;
 }
+
+footer{
+    position: absolute;
+    bottom: -40vw;
+    width: 100%;
+    height: 6vw;
+    background: rgb(7, 20, 26);
+}

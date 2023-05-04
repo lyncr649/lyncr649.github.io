@@ -1,4 +1,5 @@
 
+
 // Function to render your items
 const renderItems = (collection) => {
 	// The `ul` where the items will be inserted
@@ -66,58 +67,3 @@ fetch('assets/collection.json')
 
 
 
-// 	  function filterByBorough(borough) {
-// 		return data.filter(movie => {
-// 		  if (borough === "") {
-// 			return true; // show all movies
-// 		  } else {
-// 			return movie.borough === borough;
-// 		  }
-// 		});
-// 	  }
-
-// 	  const select = document.getElementById("borough-select");
-
-// select.addEventListener("change", (event) => {
-//   const filteredData = filterByBorough(event.target.value);
-//   // update the displayed movies with filteredData
-// });
-
-// function displayMovies(movies) {
-// 	// clear previous movies
-// 	// ...
-  
-// 	movies.forEach(movie => {
-// 	  // create HTML element for each movie
-// 	  // ...
-// 	});
-//   }
-  
-//   // call displayMovies initially with all movies
-//   displayMovies(data);
-
-//   function filterByBorough(borough) {
-// 	return data.filter(movie => {
-// 	  if (borough === "") {
-// 		return true; // show all movies
-// 	  } else {
-// 		return movie.borough === borough;
-// 	  }
-// 	});
-//   }
-  
-//   function displayMovies(movies) {
-// 	// clear previous movies
-// 	// ...
-  
-// 	movies.forEach(movie => {
-// 	  // create HTML element for each movie
-// 	  // ...
-// 	});
-//   }
-  
-//   const select = document.getElementById("borough-select");
-  
-//   select.addEventListener("change", (event) => {
-// 	const filteredData = filterByBorough(event.target.value);
-// 	displayMovies(filteredData
