@@ -16,10 +16,31 @@ body {
     
 }
 .title1{
-  width: 100%;
-  margin-top: 2vw;
+  width: 115%;
+  height: .5vw;
+  margin-top: 1vw;
+  background-color: black;
+  position: relative;
+  margin-left: -6vw;
 
 }
+.title2{
+  width: 115%;
+  height: .5vw;
+  margin-top: 5vw;
+  background-color: black;
+  position: relative;
+  margin-left: -6vw;
+}
+/* .title3{
+  width: .5vw;
+  height: 3vw;
+  margin-top: 1vw;
+  background-color: black;
+  position: relative;
+  margin-left: -20vw;
+
+} */
 
 header{
     text-align: center;
@@ -29,11 +50,14 @@ header{
     color: black;
     text-decoration: underline solid black 2px;
     font-family: 'Barlow Condensed', sans-serif;
+    box-shadow: 1px 1px 10px #999;
 }
 
 aside { margin-bottom: calc(4 * var(--spacing)); }
 
-h1 { font-size: 300%; }
+h1 { 
+  font-size: 400%; 
+}
 
 .line{
   width: 100%;
@@ -130,6 +154,7 @@ select {
   text-align: center;
   background-color: rgb(128, 1, 1);
   font-size: 300%;
+  margin-bottom: 5vw;
 }
 
 footer{
@@ -142,6 +167,15 @@ footer{
 @media only screen and (max-width: 400px) {
   li{
     width: 50%;
+  }
+  h1{
+    font-size: 200%;
+  }
+  h2{
+    font-size: 105%;
+  }
+  img{
+    width: 50vw;
   }
 
 }
