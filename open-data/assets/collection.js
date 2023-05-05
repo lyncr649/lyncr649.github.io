@@ -94,14 +94,14 @@ const renderItems = (collection) => {
 		//   console.log(borough)
 
 		  if (dropdown_borough.value == 'Manhattan'){
-			//   renderItems(borough);
-			  console.log(borough);
+			  renderItems(borough);
+			//   console.log(borough);
 	
 			// console.log("Manhattan!")
 		  }
 		  else if (dropdown_borough.value == 'Brooklyn') {
-			//   renderItems(Bborough)
-			  console.log(Bborough);
+			  renderItems(Bborough)
+			//   console.log(Bborough);
 		  
 		  }
 		  else if (dropdown_borough.value == 'Bronx') {
@@ -120,8 +120,50 @@ const renderItems = (collection) => {
 			  renderItems(localData);	
 		  }
 	  }
+
+
+
+	//   dropdown_year.onchange = () => {
+	// 	// console.log(localData)
+	// 		// console.log("changed!")
+	// 	  // const all = localData.filter(movie => movie.borough == '');
+	// 	  const year = localData.filter(movie => movie.year == '1990');
+	// 	  const year1 = localData.filter(movie => movie.year == '1991');
+	// 	  const year2 = localData.filter(movie => movie.year == '1992');
+	// 	  const year3 = localData.filter(movie => movie.year == '1993');
+	// 	  const year4 = localData.filter(movie => movie.year == '1994');
+
+	// 	//   console.log(borough)
+
+	// 	  if (dropdown_year.value == '1990'){
+	// 		  renderItems(year);
+	// 		//   console.log(borough);
+	
+	// 		// console.log("Manhattan!")
+	// 	  }
+	// 	  else if (dropdown_year.value == '1991') {
+	// 		  renderItems(year1)
+	// 		//   console.log(Bborough);
+		  
+	// 	  }
+	// 	  else if (dropdown_year.value == '1993') {
+	// 		  renderItems(year2)
+		  
+	// 	  }
+	// 	  else if (dropdown_year.value == '1994') {
+	// 		  renderItems(year3)
+		  
+	// 	  }
+	// 	  else if (dropdown_year.value == '1995') {
+	// 		  renderItems(year4)
+		  
+	// 	  }
+	// 	  else  {
+	// 		  renderItems(localData);	
+	// 	  }
+	//   }
 	  
-		  // console.log(borough)
+	// 	  // console.log(borough)
 	  
 	  
 	  // Fetch gets your JSON file…
