@@ -1,8 +1,13 @@
 // const dropdown = document.querySelector('#borough') // Get the dropdown menu
 const dropdown_borough = document.querySelector('#borough-select') // Get the dropdown menu
 
+let localData = [] // Set up an empty object for our local data (`let` because it will change)
+
 // Function to render your items
 const renderItems = (collection) => {
+	// DELETE EXISTING LI in collectionList
+
+
 	// console.log(collection)
 	// The `ul` where the items will be inserted
 	const collectionList = document.getElementById('collection')
@@ -50,8 +55,10 @@ const renderItems = (collection) => {
 fetch('assets/collection.json')
 	.then(response => response.json())
 	.then(collection => {
+		localData = collection
 		// And passes the data to the function, above!
 		renderItems(collection.reverse()) // In reverse order
+
 	})
 
 
@@ -69,10 +76,11 @@ fetch('assets/collection.json')
 
 
 
-	  let localData = [] // Set up an empty object for our local data (`let` because it will change)
+	  
 
 
 	  dropdown_borough.onchange = () => {
+		// console.log(localData)
 			// console.log("changed!")
 		  // const all = localData.filter(movie => movie.borough == '');
 		  const borough = localData.filter(movie => movie.borough == 'Manhattan');
@@ -81,16 +89,17 @@ fetch('assets/collection.json')
 		  const Qborough = localData.filter(movie => movie.borough == 'Queens');
 		  const Sborough = localData.filter(movie => movie.borough == 'Staten Island');
 
-		  console.log(borough)
+		//   console.log(borough)
 
 		  if (dropdown_borough.value == 'Manhattan'){
-			  renderItems(borough);
-			//   console.log(localData);
+			//   renderItems(borough);
+			  console.log(borough);
 	
 			// console.log("Manhattan!")
 		  }
 		  else if (dropdown_borough.value == 'Brooklyn') {
-			  renderItems(Bborough)
+			//   renderItems(Bborough)
+			  console.log(Bborough);
 		  
 		  }
 		  else if (dropdown_borough.value == 'Bronx') {
