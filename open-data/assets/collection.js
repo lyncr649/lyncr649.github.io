@@ -12,6 +12,7 @@ const renderItems = (collection) => {
 	// console.log(collection)
 	// The `ul` where the items will be inserted
 	const collectionList = document.getElementById('collection')
+	collectionList.innerHTML = "";
 
 
 	// Loop through each item in the collection array
@@ -52,15 +53,15 @@ const renderItems = (collection) => {
 
 
 
-// Fetch gets your JSON file…
-fetch('assets/collection.json')
-	.then(response => response.json())
-	.then(collection => {
-		localData = collection
-		// And passes the data to the function, above!
-		renderItems(collection.reverse()) // In reverse order
+// // Fetch gets your JSON file…
+// fetch('assets/collection.json')
+// 	.then(response => response.json())
+// 	.then(collection => {
+// 		localData = collection
+// 		// And passes the data to the function, above!
+// 		renderItems(collection.reverse()) // In reverse order
 
-	})
+// 	})
 
 
 	// scroll feature here:
@@ -120,18 +121,18 @@ fetch('assets/collection.json')
 		  }
 	  }
 	  
-		  // console.log(localData)
+		  // console.log(borough)
 	  
 	  
-	  // // Fetch gets your JSON file…
-	  // fetch('assets/collection.json')
-	  // 	.then(response => response.json())
-	  // 	.then(collection => {
-	  // 		localData = collection
-	  // 		// parseData(localData)
-	  // 		// And passes the data to the function, above!
-	  // 		renderItems(collection.reverse()) // In reverse order
-	  // 	})
+	  // Fetch gets your JSON file…
+	  fetch('assets/collection.json')
+	  	.then(response => response.json())
+	  	.then(collection => {
+	  		localData = collection
+	  		// parseData(localData)
+	  		// And passes the data to the function, above!
+	  		renderItems(collection.reverse()) // In reverse order
+	  	})
 	  
 
 
