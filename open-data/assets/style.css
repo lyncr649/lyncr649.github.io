@@ -70,6 +70,7 @@ h2 {
   font-size: 125%;
   margin-top: 5vw;
   margin-bottom: 8vw;
+  text-align: center;
 }
 
 /* .explain{
@@ -159,6 +160,7 @@ select {
 .arrows{
   text-align: center;
   background-color: rgb(128, 1, 1);
+  border-radius: 20px;
   font-size: 300%;
   margin-bottom: 5vw;
 }
@@ -182,7 +184,9 @@ footer{
     font-size: 105%;
   }
   img{
-    width: 50vw;
+    height: 60vw;
+    min-width: 50vw;
+    box-shadow: 1px 1px 10px #999;
   }
 
 }
@@ -192,8 +196,8 @@ footer{
     margin: 5vw;
   }
   img{
-    height: 30vw;
-    min-width: 20vw;
+    height: 40vw;
+    min-width: 30vw;
     box-shadow: 1px 1px 10px #999;
   }
 }
