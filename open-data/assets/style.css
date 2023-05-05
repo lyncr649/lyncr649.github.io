@@ -17,6 +17,7 @@ body {
 }
 .title1{
   width: 100%;
+  margin-top: 2vw;
 
 }
 
@@ -40,7 +41,12 @@ h1 { font-size: 300%; }
   background-color: black;
 }
 
-h2 { font-weight: bold; }
+h2 { 
+  /* font-weight: bold; */
+  font-size: 125%;
+  margin-top: 5vw;
+  margin-bottom: 8vw;
+}
 
 /* .explain{
   max-width: 70ch;
@@ -48,7 +54,7 @@ h2 { font-weight: bold; }
   align-content: center;
 } */
 
-a { color: blue; }
+a { color: rgb(0, 0, 154); }
 
 em { font-style: italic }
 
@@ -86,7 +92,7 @@ ul {
 li {
 	display: grid;
 	gap: var(--spacing);
-  align-content: center;
+  /* align-content: center; */
   justify-content: center;
   margin: 2vw;
 }
@@ -100,6 +106,9 @@ img{
   box-shadow: 1px 1px 10px #999;
 }
 
+.seats{
+  width: 100%;
+}
 
 select {
   margin-left: calc(var(--spacing) / 4);
@@ -134,11 +143,17 @@ footer{
   li{
     width: 50%;
   }
+
 }
 
 @media only screen and (max-width: 600px) {
   h2{
     margin: 5vw;
+  }
+  img{
+    height: 30vw;
+    min-width: 20vw;
+    box-shadow: 1px 1px 10px #999;
   }
 }
 
@@ -146,5 +161,10 @@ footer{
   h2{
     margin-left: 10vw;
     margin-right: 10vw;
+  }
+  img{
+    height: 30vw;
+    min-width: 20vw;
+    box-shadow: 1px 1px 10px #999;
   }
 }

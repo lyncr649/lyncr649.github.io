@@ -8,6 +8,7 @@ const renderItems = (collection) => {
 	// DELETE EXISTING LI in collectionList  !!!!!!!!!!
 
 
+
 	// console.log(collection)
 	// The `ul` where the items will be inserted
 	const collectionList = document.getElementById('collection')
@@ -220,4 +221,6 @@ fetch('assets/collection.json')
 // 		// And passes the data to the function, above!
 // 		renderItems(collection.reverse()) // In reverse order
 // 	})
+
+
 
