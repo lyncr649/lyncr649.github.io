@@ -101,49 +101,55 @@ fetch('assets/collection.json')
 //   displayMovies(data);
 
 
+const boroughFilter = document.getElementById("borough-filter");
+boroughFilter.addEventListener("change", () => {
+  const selectedBorough = boroughFilter.value;
+  const filteredLocations = selectedBorough ? locations.filter(location => location.borough === selectedBorough) : locations;
+  // Do something with the filtered data, such as display it on the page or update a map
+});
 
 
 
 
-dropdown.onchange = () => {
-	// Filter the locally-copied data
-	// const all = localData.filter(movie)
-	const manhattan = localData.filter(movie => movie.borough == 'manhattan');
-	const brooklyn = localData.filter(movie => movie.borough == 'brooklyn');
+// dropdown.onchange = () => {
+// 	// Filter the locally-copied data
+// 	// const all = localData.filter(movie)
+// 	const manhattan = localData.filter(movie => movie.borough == 'manhattan');
+// 	const brooklyn = localData.filter(movie => movie.borough == 'brooklyn');
 	
 	
-	// const all = localData.filter()
+// 	// const all = localData.filter()
 
 
-	// Parse either set depending on the dropdown value
-	if (dropdown.value == 'manhattan'){
-		renderItems(manhattan);
-		console.log(localData);
-	}
-	else if (dropdown.value == 'brooklyn') {
-		renderItems(brooklyn) ;
+// 	// Parse either set depending on the dropdown value
+// 	if (dropdown.value == 'manhattan'){
+// 		renderItems(manhattan);
+// 		console.log(localData);
+// 	}
+// 	else if (dropdown.value == 'brooklyn') {
+// 		renderItems(brooklyn) ;
 	
-	}
-	// else if (dropdown.value == 'All') renderItems(all)
-	else  {
-		renderItems(localData) ;
+// 	}
+// 	// else if (dropdown.value == 'All') renderItems(all)
+// 	else  {
+// 		renderItems(localData) ;
 	
-	} // Send the whole, unfiltered dataset
+// 	} // Send the whole, unfiltered dataset
 
-}
-
-
+// }
 
 
-// Fetch gets your JSON file…
-fetch('assets/collection.json')
-	.then(response => response.json())
-	.then(collection => {
-		localData = collection
-		// parseData(localData)
-		// And passes the data to the function, above!
-		renderItems(collection.reverse()) // In reverse order
-	})
+
+
+// // Fetch gets your JSON file…
+// fetch('assets/collection.json')
+// 	.then(response => response.json())
+// 	.then(collection => {
+// 		localData = collection
+// 		// parseData(localData)
+// 		// And passes the data to the function, above!
+// 		renderItems(collection.reverse()) // In reverse order
+// 	})
 
 
 
