@@ -1,4 +1,5 @@
-const dropdown = document.querySelector('#borough') // Get the dropdown menu
+// const dropdown = document.querySelector('#borough') // Get the dropdown menu
+const dropdown_borough = document.querySelector('#borough') // Get the dropdown menu
 
 // Function to render your items
 const renderItems = (collection) => {
@@ -11,10 +12,10 @@ const renderItems = (collection) => {
 		const listItem = document.createElement('li') // Make the `li`
 
 
-		// You can make each element inside of that…
-		const itemTitle = document.createElement('h2') // Make an `h2`
-		itemTitle.innerHTML = item.title // Put the JSON title inside
-		listItem.appendChild(itemTitle) // And add it to the `li`!
+		// // You can make each element inside of that…
+		// const itemTitle = document.createElement('h2') // Make an `h2`
+		// itemTitle.innerHTML = item.title // Put the JSON title inside
+		// listItem.appendChild(itemTitle) // And add it to the `li`!
 
 		const itemImage = document.createElement('img') // And an image
 		itemImage.src = item.posterImage // Set the `src` attribute from the JSON
@@ -28,7 +29,7 @@ const renderItems = (collection) => {
                 <p>${item.director}</p>
 				<p><em>${item.location}</em></p>
 				<a href="${item.imdbLink}">
-					<p>${item.borough}→</p>
+					<p>${item.title}→</p>
 				</a>
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
@@ -101,12 +102,12 @@ fetch('assets/collection.json')
 //   displayMovies(data);
 
 
-const boroughFilter = document.getElementById("borough-filter");
-boroughFilter.addEventListener("change", () => {
-  const selectedBorough = boroughFilter.value;
-  const filteredLocations = selectedBorough ? locations.filter(location => location.borough === selectedBorough) : locations;
-  // Do something with the filtered data, such as display it on the page or update a map
-});
+// const boroughFilter = document.getElementById("borough-filter");
+// boroughFilter.addEventListener("change", () => {
+//   const selectedBorough = boroughFilter.value;
+//   const filteredLocations = selectedBorough ? locations.filter(location => location.borough === selectedBorough) : locations;
+//   // Do something with the filtered data, such as display it on the page or update a map
+// });
 
 
 
@@ -114,11 +115,15 @@ boroughFilter.addEventListener("change", () => {
 // dropdown.onchange = () => {
 // 	// Filter the locally-copied data
 // 	// const all = localData.filter(movie)
-// 	const manhattan = localData.filter(movie => movie.borough == 'manhattan');
-// 	const brooklyn = localData.filter(movie => movie.borough == 'brooklyn');
+// 	const manhattan = localData.filter(movie => movie.borough == 'Manhattan');
+// 	const brooklyn = localData.filter(movie => movie.borough == 'Brooklyn');
+// 	const bronx = localData.filter(movie => movie.borough == 'Bronx');
+// 	const queens = localData.filter(movie => movie.borough == 'Queens');
+// 	const statenisland = localData.filter(movie => movie.borough == 'Statan Island');
 	
 	
-// 	// const all = localData.filter()
+// 	const all = localData.filter()
+	
 
 
 // 	// Parse either set depending on the dropdown value
@@ -130,7 +135,7 @@ boroughFilter.addEventListener("change", () => {
 // 		renderItems(brooklyn) ;
 	
 // 	}
-// 	// else if (dropdown.value == 'All') renderItems(all)
+// 	else if (dropdown.value == 'All') renderItems(all)
 // 	else  {
 // 		renderItems(localData) ;
 	
@@ -153,4 +158,50 @@ boroughFilter.addEventListener("change", () => {
 
 
 
+let localData = [] // Set up an empty object for our local data (`let` because it will change)
 
+
+dropdown_borough.onchange = () => {
+	// const all = localData.filter(movie => movie.borough == '');
+	const borough = localData.filter(movie => movie.borough == 'Manhattan');
+	const Bborough = localData.filter(movie => movie.borough == 'Brooklyn');
+	const Cborough = localData.filter(movie => movie.borough == 'Bronx');
+	const Qborough = localData.filter(movie => movie.borough == 'Queens');
+	const Sborough = localData.filter(movie => movie.borough == 'Staten Island');
+}
+
+	if (dropdown_borough.value == 'Manhattan'){
+		renderItems(borough);
+		console.log(localData);
+	}
+	else if (dropdown_borough.value == 'Brooklyn') {
+		renderItems(Bborough)
+	
+	}
+	else if (dropdown_borough.value == 'Bronx') {
+		renderItems(Cborough)
+	
+	}
+	else if (dropdown_borough.value == 'Queens') {
+		renderItems(Qborough)
+	
+	}
+	else if (dropdown_borough.value == 'Staten Island') {
+		renderItems(Sborough)
+	
+	}
+	else  {
+		renderItems(localData);	
+	}
+	// console.log(localData)
+
+
+// // Fetch gets your JSON file…
+// fetch('assets/collection.json')
+// 	.then(response => response.json())
+// 	.then(collection => {
+// 		localData = collection
+// 		// parseData(localData)
+// 		// And passes the data to the function, above!
+// 		renderItems(collection.reverse()) // In reverse order
+// 	})
