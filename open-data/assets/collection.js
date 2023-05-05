@@ -68,64 +68,83 @@ fetch('assets/collection.json')
 
 
 
-	  let localData = [] // Set up an empty object for our local data (`let` because it will change)
 
 
-	  dropdown_borough.onchange = () => {
-	  
-		  const borough = localData.filter(movie => movie.borough == 'Manhattan');
-	  
-		  renderItems(borough)
-		  // console.log(borough)
-	  }
-	  
-	  
-	  
-	  // var result = localData.filter(dog => dog.breedname == 'Labrador Retriever');
-	  // console.log(result)
-	  
-	  dropdown.onchange = () => {
-		  // Filter the locally-copied data
-		  // const all = localData.filter(movie)
-		  const genderF = localData.filter(movie => movie.borough == 'F');
-		  const genderM = localData.filter(movie => movie.borough == 'M');
-		  
-		  
-		  // const all = localData.filter()
-	  
-	  
-		  // Parse either set depending on the dropdown value
-		  if (dropdown.value == 'Female'){
-			  renderItems(genderF);
-			  console.log(localData);
-		  }
-		  else if (dropdown.value == 'Male') {
-			  renderItems(genderM) ;
-		  
-		  }
-		  // else if (dropdown.value == 'All') renderItems(all)
-		  else  {
-			  renderItems(localData) ;
-		  
-		  } // Send the whole, unfiltered dataset
-	  
-		  // console.log('F' + animalbirth + animalgender + animalname)
-	  }
-	  
-	  
-	  
-	  
-	  // Fetch gets your JSON file…
-	  fetch('assets/collection.json')
-		  .then(response => response.json())
-		  .then(collection => {
-			  localData = collection
-			  // parseData(localData)
-			  // And passes the data to the function, above!
-			  renderItems(collection.reverse()) // In reverse order
-		  })
-	  
-	  
-	  
-	  
-	  
+// 	  function filterByBorough(borough) {
+// 		return data.filter(movie => {
+// 		  if (borough === "") {
+// 			return true; // show all movies
+// 		  } else {
+// 			return movie.borough === borough;
+// 		  }
+// 		});
+// 	  }
+
+// const select = document.getElementById("borough-select");
+
+// select.addEventListener("change", (event) => {
+//   const filteredData = filterByBorough(event.target.value);
+//   // update the displayed movies with filteredData
+// });
+
+// function displayMovies(movies) {
+// 	// clear previous movies
+// 	// ...
+  
+// 	movies.forEach(movie => {
+// 	  // create HTML element for each movie
+// 	  // ...
+// 	});
+//   }
+  
+//   // call displayMovies initially with all movies
+//   displayMovies(data);
+
+
+
+
+
+
+dropdown.onchange = () => {
+	// Filter the locally-copied data
+	// const all = localData.filter(movie)
+	const manhattan = localData.filter(movie => movie.borough == 'manhattan');
+	const brooklyn = localData.filter(movie => movie.borough == 'brooklyn');
+	
+	
+	// const all = localData.filter()
+
+
+	// Parse either set depending on the dropdown value
+	if (dropdown.value == 'manhattan'){
+		renderItems(manhattan);
+		console.log(localData);
+	}
+	else if (dropdown.value == 'brooklyn') {
+		renderItems(brooklyn) ;
+	
+	}
+	// else if (dropdown.value == 'All') renderItems(all)
+	else  {
+		renderItems(localData) ;
+	
+	} // Send the whole, unfiltered dataset
+
+}
+
+
+
+
+// Fetch gets your JSON file…
+fetch('assets/collection.json')
+	.then(response => response.json())
+	.then(collection => {
+		localData = collection
+		// parseData(localData)
+		// And passes the data to the function, above!
+		renderItems(collection.reverse()) // In reverse order
+	})
+
+
+
+
