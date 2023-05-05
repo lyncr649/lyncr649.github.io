@@ -5,7 +5,7 @@ let localData = [] // Set up an empty object for our local data (`let` because i
 
 // Function to render your items
 const renderItems = (collection) => {
-	// DELETE EXISTING LI in collectionList
+	// DELETE EXISTING LI in collectionList  !!!!!!!!!!
 
 
 	// console.log(collection)
