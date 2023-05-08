@@ -71,7 +71,7 @@ p{
 
 h2 { 
   /* font-weight: bold; */
-  font-size: 125%;
+  font-size: 220%;
   margin-top: 5vw;
   margin-bottom: 8vw;
   text-align: center;
@@ -210,6 +210,9 @@ footer{
     height: 60vw;
     min-width: 50vw;
     box-shadow: 1px 1px 10px #999;
+  }
+  ul{
+    column-gap: 10vw;
   }
 
 }
