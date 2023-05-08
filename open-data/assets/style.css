@@ -71,7 +71,7 @@ p{
 
 h2 { 
   /* font-weight: bold; */
-  font-size: 220%;
+  font-size: 130%;
   margin-top: 5vw;
   margin-bottom: 8vw;
   text-align: center;
@@ -139,7 +139,7 @@ img{
   height: 30vw;
   min-width: 20vw;
   box-shadow: 1px 1px 10px #999;
-  /* border-radius: 10px; */
+  border-radius: 5px;
 }
 
 .seats{
@@ -203,9 +203,9 @@ footer{
   h1{
     font-size: 200%;
   }
-  h2{
+  /* h2{
     font-size: 105%;
-  }
+  } */
   img{
     height: 60vw;
     min-width: 50vw;
@@ -213,6 +213,9 @@ footer{
   }
   ul{
     column-gap: 10vw;
+  }
+  p{
+    line-height: 5px;
   }
 
 }
@@ -223,6 +226,7 @@ footer{
  }
   h2{
     margin: 5vw;
+    font-size: 140%;
   }
   p{
     line-height: 7px;
