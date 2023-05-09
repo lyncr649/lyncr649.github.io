@@ -36,6 +36,9 @@ h6{
 	text-align: center;
 	text-decoration: underline dotted 2px;
 	animation: marquee 30s linear infinite;
+	color: #F9E14B;
+	background-color: red;
+	padding: 1vw;
 }
 
 
