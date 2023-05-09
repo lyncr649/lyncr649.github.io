@@ -33,7 +33,7 @@ const renderItems = (collection) => {
 		// This can get annoying, so we can use “template literals” instead
 		const itemDetails =
 			`
-				<p>Released in <time>${item.year}</time></p>
+				<h3>Released in <time>${item.year}</time></h3>
                 <p>${item.director}</p>
 				<p><em>${item.location}</em></p>
 				<a href="${item.imdbLink}">

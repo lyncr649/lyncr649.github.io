@@ -59,6 +59,11 @@ h1 {
   font-size: 400%; 
 }
 
+h3{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+}
+
 p{
   font-family: 'Barlow Condensed', sans-serif;
 }
@@ -210,6 +215,9 @@ footer{
     height: 60vw;
     min-width: 50vw;
     box-shadow: 1px 1px 10px #999;
+  }
+  p{
+    font-size: 18px
   }
   ul{
     column-gap: 10vw;
