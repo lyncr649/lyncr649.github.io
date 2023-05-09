@@ -88,7 +88,14 @@ h2 {
   align-content: center;
 } */
 
-a { color: rgb(126, 170, 247); }
+a { 
+  /* color: rgb(126, 170, 247);  */
+  color: gainsboro;
+}
+
+a:hover{
+  color: rgb(126, 170, 247);
+}
 
 em { font-style: italic }
 
@@ -173,6 +180,7 @@ select {
   border-radius: 20px;
   font-size: 300%;
   margin-bottom: 5vw;
+  margin-top: 2vw;
 }
 
 footer{
