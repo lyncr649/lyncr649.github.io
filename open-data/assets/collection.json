@@ -308,7 +308,7 @@
 	{
 		"title": "One Fine Day",
 		"year": 1996,
-		"location": "Carnegie Deli, Seventh Ave. and W. 55th St., Central Park",
+		"location": "Carnegie Deli, Seventh Ave. and W. 55th St.",
 		"director": "Michael Hoffman",
 		"posterImage": "./assets/posters/onefineday.jpg",
 		"borough": "Manhattan",
@@ -362,7 +362,7 @@
 	{
 		"title": "Men In Black",
 		"year": 1997,
-		"location": "Battery Park, MacDougal St., Grand Central Station, Guggenheim Museum",
+		"location": "Battery Park, MacDougal St., Grand Central",
 		"director": "Barry Sonnenfeld",
 		"posterImage": "./assets/posters/meninblack.jpg",
 		"borough": "Manhattan",
